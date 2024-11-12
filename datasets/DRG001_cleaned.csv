@@ -1,0 +1,805 @@
+COD_TIPO_RAPPORTO,TIPO_RAPPORTO,COD_DRG,DRG,ANNO,NUMERO
+1,GESTIONE DIRETTA SSP,1,"Craniotomia, età > 17 anni con CC",2017,16
+1,GESTIONE DIRETTA SSP,10,Neoplasie del sistema nervoso con CC,2017,46
+1,GESTIONE DIRETTA SSP,100,Segni e sintomi respiratori senza CC,2017,24
+1,GESTIONE DIRETTA SSP,101,Altre diagnosi relative all'apparato respiratorio con CC,2017,41
+1,GESTIONE DIRETTA SSP,102,Altre diagnosi relative all'apparato respiratorio senza CC,2017,31
+1,GESTIONE DIRETTA SSP,104,Interventi sulle valvole cardiache e altri interventi maggiori cardiotoracici con cateterismo cardiaco,2017,24
+1,GESTIONE DIRETTA SSP,105,Interventi sulle valvole cardiache e altri interventi maggiori cardiotoracici senza cateterismo cardiaco,2017,201
+1,GESTIONE DIRETTA SSP,106,Bypass coronarico con PTCA,2017,3
+1,GESTIONE DIRETTA SSP,108,Altri interventi cardiotoracici,2017,11
+1,GESTIONE DIRETTA SSP,11,Neoplasie del sistema nervoso senza CC,2017,116
+1,GESTIONE DIRETTA SSP,110,Interventi maggiori sul sistema cardiovascolare con CC,2017,102
+1,GESTIONE DIRETTA SSP,111,Interventi maggiori sul sistema cardiovascolare senza CC,2017,85
+1,GESTIONE DIRETTA SSP,113,Amputazione per disturbi circolatori eccetto amputazione arto superiore e dita piede,2017,51
+1,GESTIONE DIRETTA SSP,114,Amputazione arto superiore e dita piede per malattie apparato circolatorio,2017,39
+1,GESTIONE DIRETTA SSP,117,"Revisione del pacemaker cardiaco, eccetto sostituzione",2017,146
+1,GESTIONE DIRETTA SSP,118,Sostituzione di pacemaker cardiaco,2017,140
+1,GESTIONE DIRETTA SSP,119,Legatura e stripping di vene,2017,164
+1,GESTIONE DIRETTA SSP,12,Malattie degenerative del sistema nervoso,2017,434
+1,GESTIONE DIRETTA SSP,120,Altri interventi sull'apparato circolatorio,2017,38
+1,GESTIONE DIRETTA SSP,121,"Malattie cardiovascolari con infarto miocardico acuto e complicanze maggiori, dimessi vivi",2017,142
+1,GESTIONE DIRETTA SSP,122,"Malattie cardiovascolari con infarto miocardico acuto senza complicanze maggiori, dimessi vivi",2017,190
+1,GESTIONE DIRETTA SSP,123,"Malattie cardiovascolari con infarto miocardico acuto, morti",2017,40
+1,GESTIONE DIRETTA SSP,124,"Malattie cardiovascolari eccetto infarto miocardico acuto, con cateterismo cardiaco e diagnosi complicata",2017,244
+1,GESTIONE DIRETTA SSP,125,"Malattie cardiovascolari eccetto infarto miocardico acuto, con cateterismo cardiaco e diagnosi non complicata",2017,517
+1,GESTIONE DIRETTA SSP,126,Endocardite acuta e subacuta,2017,17
+1,GESTIONE DIRETTA SSP,127,Insufficienza cardiaca e shock,2017,1586
+1,GESTIONE DIRETTA SSP,128,Tromboflebite delle vene profonde,2017,7
+1,GESTIONE DIRETTA SSP,129,Arresto cardiaco senza causa apparente,2017,21
+1,GESTIONE DIRETTA SSP,13,Sclerosi multipla e atassia cerebellare,2017,164
+1,GESTIONE DIRETTA SSP,130,Malattie vascolari periferiche con CC,2017,96
+1,GESTIONE DIRETTA SSP,131,Malattie vascolari periferiche senza CC,2017,119
+1,GESTIONE DIRETTA SSP,132,Aterosclerosi con CC,2017,50
+1,GESTIONE DIRETTA SSP,133,Aterosclerosi senza CC,2017,44
+1,GESTIONE DIRETTA SSP,134,Ipertensione,2017,64
+1,GESTIONE DIRETTA SSP,135,"Malattie cardiache congenite e valvolari, età > 17 anni con CC",2017,26
+1,GESTIONE DIRETTA SSP,136,"Malattie cardiache congenite e valvolari, età > 17 anni senza CC",2017,17
+1,GESTIONE DIRETTA SSP,137,"Malattie cardiache congenite e valvolari, età < 18 anni",2017,15
+1,GESTIONE DIRETTA SSP,138,Aritmia e alterazioni della conduzione cardiaca con CC,2017,208
+1,GESTIONE DIRETTA SSP,139,Aritmia e alterazioni della conduzione cardiaca senza CC,2017,590
+1,GESTIONE DIRETTA SSP,14,Emorragia intracranica o infarto cerebrale,2017,960
+1,GESTIONE DIRETTA SSP,140,Angina pectoris,2017,186
+1,GESTIONE DIRETTA SSP,141,Sincope e collasso con CC,2017,64
+1,GESTIONE DIRETTA SSP,142,Sincope e collasso senza CC,2017,88
+1,GESTIONE DIRETTA SSP,143,Dolore toracico,2017,65
+1,GESTIONE DIRETTA SSP,144,Altre diagnosi relative all'apparato circolatorio con CC,2017,164
+1,GESTIONE DIRETTA SSP,145,Altre diagnosi relative all'apparato circolatorio senza CC,2017,305
+1,GESTIONE DIRETTA SSP,146,Resezione rettale con CC,2017,5
+1,GESTIONE DIRETTA SSP,147,Resezione rettale senza CC,2017,22
+1,GESTIONE DIRETTA SSP,149,Interventi maggiori su intestino crasso e tenue senza CC,2017,267
+1,GESTIONE DIRETTA SSP,15,Malattie cerebrovascolari acute aspecifiche e occlusione precerebrale senza infarto,2017,119
+1,GESTIONE DIRETTA SSP,150,Lisi di aderenze peritoneali con CC,2017,33
+1,GESTIONE DIRETTA SSP,151,Lisi di aderenze peritoneali senza CC,2017,111
+1,GESTIONE DIRETTA SSP,152,Interventi minori su intestino crasso e tenue con CC,2017,3
+1,GESTIONE DIRETTA SSP,153,Interventi minori su intestino crasso e tenue senza CC,2017,28
+1,GESTIONE DIRETTA SSP,155,"Interventi su esofago, stomaco e duodeno, età > 17 anni senza CC",2017,48
+1,GESTIONE DIRETTA SSP,156,"Interventi su esofago, stomaco e duodeno, età < 18 anni",2017,8
+1,GESTIONE DIRETTA SSP,157,Interventi su ano e stoma con CC,2017,14
+1,GESTIONE DIRETTA SSP,158,Interventi su ano e stoma senza CC,2017,383
+1,GESTIONE DIRETTA SSP,159,"Interventi per ernia, eccetto inguinale e femorale, età > 17 anni con CC",2017,17
+1,GESTIONE DIRETTA SSP,16,Malattie cerebrovascolari aspecifiche con CC,2017,36
+1,GESTIONE DIRETTA SSP,160,"Interventi per ernia, eccetto inguinale e femorale, età > 17 anni senza CC",2017,308
+1,GESTIONE DIRETTA SSP,161,"Interventi per ernia inguinale e femorale, età > 17 anni con CC",2017,31
+1,GESTIONE DIRETTA SSP,162,"Interventi per ernia inguinale e femorale, età > 17 anni senza CC",2017,1055
+1,GESTIONE DIRETTA SSP,163,"Interventi per ernia, età < 18 anni",2017,72
+1,GESTIONE DIRETTA SSP,164,Appendicectomia con diagnosi principale complicata con CC,2017,20
+1,GESTIONE DIRETTA SSP,165,Appendicectomia con diagnosi principale complicata senza CC,2017,131
+1,GESTIONE DIRETTA SSP,166,Appendicectomia con diagnosi principale non complicata con CC,2017,5
+1,GESTIONE DIRETTA SSP,167,Appendicectomia con diagnosi principale non complicata senza CC,2017,289
+1,GESTIONE DIRETTA SSP,168,Interventi sulla bocca con CC,2017,15
+1,GESTIONE DIRETTA SSP,169,Interventi sulla bocca senza CC,2017,228
+1,GESTIONE DIRETTA SSP,17,Malattie cerebrovascolari aspecifiche senza CC,2017,51
+1,GESTIONE DIRETTA SSP,170,Altri interventi sull'apparato digerente con CC,2017,21
+1,GESTIONE DIRETTA SSP,171,Altri interventi sull'apparato digerente senza CC,2017,20
+1,GESTIONE DIRETTA SSP,172,Neoplasie maligne dell'apparato digerente con CC,2017,168
+1,GESTIONE DIRETTA SSP,173,Neoplasie maligne dell'apparato digerente senza CC,2017,90
+1,GESTIONE DIRETTA SSP,174,Emorragia gastrointestinale con CC,2017,214
+1,GESTIONE DIRETTA SSP,175,Emorragia gastrointestinale senza CC,2017,128
+1,GESTIONE DIRETTA SSP,176,Ulcera peptica complicata,2017,11
+1,GESTIONE DIRETTA SSP,177,Ulcera peptica non complicata con CC,2017,5
+1,GESTIONE DIRETTA SSP,178,Ulcera peptica non complicata senza CC,2017,10
+1,GESTIONE DIRETTA SSP,179,Malattie infiammatorie dell'intestino,2017,178
+1,GESTIONE DIRETTA SSP,18,Malattie dei nervi cranici e periferici con CC,2017,30
+1,GESTIONE DIRETTA SSP,180,Occlusione gastrointestinale con CC,2017,108
+1,GESTIONE DIRETTA SSP,181,Occlusione gastrointestinale senza CC,2017,259
+1,GESTIONE DIRETTA SSP,182,"Esofagite, gastroenterite e miscellanea di malattie dell'apparato digerente, età >17 anni con CC",2017,174
+1,GESTIONE DIRETTA SSP,183,"Esofagite, gastroenterite e miscellanea di malattie dell'apparato digerente, età > 17 anni senza CC",2017,407
+1,GESTIONE DIRETTA SSP,184,"Esofagite, gastroenterite e miscellanea di malattie dell'apparato digerente, età < 18 anni",2017,159
+1,GESTIONE DIRETTA SSP,185,"Malattie dei denti e del cavo orale, eccetto estrazione e riparazione, età > 17 anni",2017,59
+1,GESTIONE DIRETTA SSP,186,"Malattie dei denti e del cavo orale, eccetto estrazione e riparazione, età < 18 anni",2017,35
+1,GESTIONE DIRETTA SSP,187,Estrazioni e riparazioni dentali,2017,375
+1,GESTIONE DIRETTA SSP,188,"Altre diagnosi relative all'apparato digerente, età > 17 anni con CC",2017,67
+1,GESTIONE DIRETTA SSP,189,"Altre diagnosi relative all'apparato digerente, età > 17 anni senza CC",2017,188
+1,GESTIONE DIRETTA SSP,19,Malattie dei nervi cranici e periferici senza CC,2017,87
+1,GESTIONE DIRETTA SSP,190,"Altre diagnosi relative all'apparato digerente, età < 18 anni",2017,38
+1,GESTIONE DIRETTA SSP,191,"Interventi su pancreas, fegato e di shunt con CC",2017,40
+1,GESTIONE DIRETTA SSP,192,"Interventi su pancreas, fegato e di shunt senza CC",2017,32
+1,GESTIONE DIRETTA SSP,193,Interventi sulle vie biliari eccetto colecistectomia isolata con o senza esplorazione del dotto biliare comune con CC,2017,17
+1,GESTIONE DIRETTA SSP,194,"Interventi sulle vie biliari, eccetto colecistectomia isolata con o senza esplorazione del dotto biliare comune senza CC",2017,16
+1,GESTIONE DIRETTA SSP,197,Colecistectomia eccetto laparoscopica senza esplorazione del dotto biliare comune con CC,2017,10
+1,GESTIONE DIRETTA SSP,198,Colecistectomia eccetto laparoscopica senza esplorazione del dotto biliare comune senza CC,2017,7
+1,GESTIONE DIRETTA SSP,199,Procedure diagnostiche epatobiliari per neoplasie maligne,2017,5
+1,GESTIONE DIRETTA SSP,2,"Craniotomia, età > 17 anni senza CC",2017,147
+1,GESTIONE DIRETTA SSP,200,Procedure diagnostiche epatobiliari non per neoplasie maligne,2017,23
+1,GESTIONE DIRETTA SSP,201,Altri interventi epatobiliari o sul pancreas,2017,3
+1,GESTIONE DIRETTA SSP,202,Cirrosi e epatite alcolica,2017,195
+1,GESTIONE DIRETTA SSP,203,Neoplasie maligne dell'apparato epatobiliare o del pancreas,2017,300
+1,GESTIONE DIRETTA SSP,204,Malattie del pancreas eccetto neoplasie maligne,2017,198
+1,GESTIONE DIRETTA SSP,205,"Malattie del fegato eccetto neoplasie maligne, cirrosi, epatite alcolica con CC",2017,91
+1,GESTIONE DIRETTA SSP,206,"Malattie del fegato eccetto neoplasie maligne, cirrosi, epatite alcolica senza CC",2017,265
+1,GESTIONE DIRETTA SSP,207,Malattie delle vie biliari con CC,2017,210
+1,GESTIONE DIRETTA SSP,208,Malattie delle vie biliari senza CC,2017,332
+1,GESTIONE DIRETTA SSP,21,Meningite virale,2017,8
+1,GESTIONE DIRETTA SSP,210,"Interventi su anca e femore, eccetto articolazioni maggiori, età > 17 anni con CC",2017,385
+1,GESTIONE DIRETTA SSP,211,"Interventi su anca e femore, eccetto articolazioni maggiori, età > 17 anni senza CC",2017,231
+1,GESTIONE DIRETTA SSP,212,"Interventi su anca e femore, eccetto articolazioni maggiori, età < 18 anni",2017,43
+1,GESTIONE DIRETTA SSP,213,Amputazioni per malattie del sistema muscolo-scheletrico e tessuto connettivo,2017,14
+1,GESTIONE DIRETTA SSP,216,Biopsie del sistema muscolo-scheletrico e tessuto connettivo,2017,31
+1,GESTIONE DIRETTA SSP,217,"Sbrigliamento ferita e trapianto cutaneo eccetto mano, per malattie del sistema muscolo-scheletrico e tessuto connettivo",2017,61
+1,GESTIONE DIRETTA SSP,218,"Interventi su arto inferiore e omero eccetto anca, piede e femore, età > 17 anni con CC",2017,63
+1,GESTIONE DIRETTA SSP,219,"Interventi su arto inferiore e omero eccetto anca, piede e femore, età > 17 anni senza CC",2017,785
+1,GESTIONE DIRETTA SSP,22,Encefalopatia ipertensiva,2017,7
+1,GESTIONE DIRETTA SSP,220,"Interventi su arto inferiore e omero eccetto anca, piede e femore, età < 18 anni",2017,140
+1,GESTIONE DIRETTA SSP,223,Interventi maggiori su spalla e gomito o altri interventi su arto superiore con CC,2017,191
+1,GESTIONE DIRETTA SSP,224,"Interventi su spalla, gomito o avambraccio eccetto interventi maggiori su articolazioni senza CC",2017,384
+1,GESTIONE DIRETTA SSP,225,Interventi sul piede,2017,679
+1,GESTIONE DIRETTA SSP,226,Interventi sui tessuti molli con CC,2017,6
+1,GESTIONE DIRETTA SSP,227,Interventi sui tessuti molli senza CC,2017,582
+1,GESTIONE DIRETTA SSP,228,Interventi maggiori sul pollice o sulle articolazioni o altri interventi mano o polso con CC,2017,27
+1,GESTIONE DIRETTA SSP,229,"Interventi su mano o polso eccetto interventi maggiori sulle articolazioni, senza CC",2017,813
+1,GESTIONE DIRETTA SSP,23,Stato stuporoso e coma di origine non traumatica,2017,26
+1,GESTIONE DIRETTA SSP,230,Escissione locale e rimozione di mezzi di fissaggio intramidollare di anca e femore,2017,56
+1,GESTIONE DIRETTA SSP,232,Artroscopia,2017,35
+1,GESTIONE DIRETTA SSP,233,Altri interventi su sistema muscolo-scheletrico e tessuto connettivo con CC,2017,28
+1,GESTIONE DIRETTA SSP,234,Altri interventi su sistema muscolo-scheletrico e tessuto connettivo senza CC,2017,255
+1,GESTIONE DIRETTA SSP,235,Fratture del femore,2017,36
+1,GESTIONE DIRETTA SSP,236,Fratture dell'anca e della pelvi,2017,237
+1,GESTIONE DIRETTA SSP,237,"Distorsioni, stiramenti e lussazioni di anca, pelvi e coscia",2017,17
+1,GESTIONE DIRETTA SSP,238,Osteomielite,2017,76
+1,GESTIONE DIRETTA SSP,239,Fratture patologiche e neoplasie maligne del sistema muscolo-scheletrico e tessuto connettivo,2017,106
+1,GESTIONE DIRETTA SSP,240,Malattie del tessuto connettivo con CC,2017,98
+1,GESTIONE DIRETTA SSP,241,Malattie del tessuto connettivo senza CC,2017,317
+1,GESTIONE DIRETTA SSP,242,Artrite settica,2017,26
+1,GESTIONE DIRETTA SSP,243,Affezioni mediche del dorso,2017,363
+1,GESTIONE DIRETTA SSP,244,Malattie dell'osso e artropatie specifiche con CC,2017,15
+1,GESTIONE DIRETTA SSP,245,Malattie dell'osso e artropatie specifiche senza CC,2017,141
+1,GESTIONE DIRETTA SSP,246,Artropatie non specifiche,2017,29
+1,GESTIONE DIRETTA SSP,247,Segni e sintomi relativi al sistema muscolo-scheletrico e al tessuto connettivo,2017,23
+1,GESTIONE DIRETTA SSP,248,"Tendinite, miosite e borsite",2017,62
+1,GESTIONE DIRETTA SSP,249,Assistenza riabilitativa per malattie del sistema muscolo-scheletrico e del tessuto connettivo,2017,210
+1,GESTIONE DIRETTA SSP,250,"Fratture, distorsioni, stiramenti e lussazioni di avambraccio, mano e piede, età > 17 anni con CC",2017,12
+1,GESTIONE DIRETTA SSP,251,"Fratture, distorsioni, stiramenti e lussazioni di avambraccio, mano e piede, età > 17 anni senza CC",2017,36
+1,GESTIONE DIRETTA SSP,252,"Fratture, distorsioni, stiramenti e lussazioni di avambraccio, mano e piede, età < 18 anni",2017,196
+1,GESTIONE DIRETTA SSP,253,"Fratture, distorsioni, stiramenti e lussazioni di braccio, gamba, eccetto piede, età > 17 anni con CC",2017,40
+1,GESTIONE DIRETTA SSP,254,"Fratture, distorsioni, stiramenti e lussazioni di braccio, gamba, eccetto piede, età > 17 anni senza CC",2017,106
+1,GESTIONE DIRETTA SSP,255,"Fratture, distorsioni, stiramenti e lussazioni di braccio, gamba, eccetto piede, età < 18 anni",2017,68
+1,GESTIONE DIRETTA SSP,256,Altre diagnosi del sistema muscolo-scheletrico e del tessuto connettivo,2017,232
+1,GESTIONE DIRETTA SSP,257,Mastectomia totale per neoplasie maligne con CC,2017,33
+1,GESTIONE DIRETTA SSP,258,Mastectomia totale per neoplasie maligne senza CC,2017,141
+1,GESTIONE DIRETTA SSP,259,Mastectomia subtotale per neoplasie maligne con CC,2017,24
+1,GESTIONE DIRETTA SSP,26,"Convulsioni e cefalea, età < 18 anni",2017,72
+1,GESTIONE DIRETTA SSP,260,Mastectomia subtotale per neoplasie maligne senza CC,2017,338
+1,GESTIONE DIRETTA SSP,261,Interventi sulla mammella non per neoplasie maligne eccetto biopsia e escissione locale,2017,190
+1,GESTIONE DIRETTA SSP,262,Biopsia della mammella e escissione locale non per neoplasie maligne,2017,88
+1,GESTIONE DIRETTA SSP,263,Trapianti di pelle e/o sbrigliamenti per ulcere della pelle o cellulite con CC,2017,4
+1,GESTIONE DIRETTA SSP,264,Trapianti di pelle e/o sbrigliamenti per ulcere pelle o cellulite senza CC,2017,20
+1,GESTIONE DIRETTA SSP,265,Trapianti di pelle e/o sbrigliamenti eccetto per ulcere della pelle/cellulite con CC,2017,21
+1,GESTIONE DIRETTA SSP,266,Trapianti di pelle e/o sbrigliamenti eccetto per ulcere della pelle/cellulite senza CC,2017,310
+1,GESTIONE DIRETTA SSP,267,Interventi perianali e pilonidali,2017,189
+1,GESTIONE DIRETTA SSP,268,"Chirurgia plastica della pelle, del tessuto sottocutaneo e della mammella",2017,109
+1,GESTIONE DIRETTA SSP,269,"Altri interventi su pelle, tessuto sottocutaneo e mammella con CC",2017,21
+1,GESTIONE DIRETTA SSP,27,"Stato stuporoso e coma di origine traumatica, coma > 1 ora",2017,52
+1,GESTIONE DIRETTA SSP,270,"Altri interventi su pelle, tessuto sottocutaneo e mammella senza CC",2017,216
+1,GESTIONE DIRETTA SSP,271,Ulcere della pelle,2017,72
+1,GESTIONE DIRETTA SSP,272,Malattie maggiori della pelle con CC,2017,14
+1,GESTIONE DIRETTA SSP,273,Malattie maggiori della pelle senza CC,2017,25
+1,GESTIONE DIRETTA SSP,274,Neoplasie maligne della mammella con CC,2017,24
+1,GESTIONE DIRETTA SSP,275,Neoplasie maligne della mammella senza CC,2017,12
+1,GESTIONE DIRETTA SSP,276,Patologie non maligne della mammella,2017,2
+1,GESTIONE DIRETTA SSP,277,"Cellulite, età > 17 anni con CC",2017,54
+1,GESTIONE DIRETTA SSP,278,"Cellulite, età > 17 anni senza CC",2017,102
+1,GESTIONE DIRETTA SSP,279,"Cellulite, età < 18 anni",2017,18
+1,GESTIONE DIRETTA SSP,28,"Stato stuporoso e coma di origine traumatica, coma < 1 ora, età > 17 anni con CC",2017,114
+1,GESTIONE DIRETTA SSP,280,"Traumi della pelle, del tessuto sottocutaneo e della mammella, età > 17 anni con CC",2017,32
+1,GESTIONE DIRETTA SSP,281,"Traumi della pelle, del tessuto sottocutaneo e della mammella, età > 17 anni senza CC",2017,81
+1,GESTIONE DIRETTA SSP,282,"Traumi della pelle, del tessuto sottocutaneo e della mammella, età < 18 anni",2017,23
+1,GESTIONE DIRETTA SSP,283,Malattie minori della pelle con CC,2017,15
+1,GESTIONE DIRETTA SSP,284,Malattie minori della pelle senza CC,2017,97
+1,GESTIONE DIRETTA SSP,286,Interventi sul surrene e sulla ipofisi,2017,14
+1,GESTIONE DIRETTA SSP,288,Interventi per obesità,2017,58
+1,GESTIONE DIRETTA SSP,289,Interventi sulle paratiroidi,2017,17
+1,GESTIONE DIRETTA SSP,29,"Stato stuporoso e coma di origine traumatica, coma < 1 ora, età > 17 anni senza CC",2017,223
+1,GESTIONE DIRETTA SSP,290,Interventi sulla tiroide,2017,169
+1,GESTIONE DIRETTA SSP,291,Interventi sul dotto tireoglosso,2017,3
+1,GESTIONE DIRETTA SSP,292,"Altri interventi per malattie endocrine, nutrizionali e metaboliche con CC",2017,1
+1,GESTIONE DIRETTA SSP,293,"Altri interventi per malattie endocrine, nutrizionali e metaboliche senza CC",2017,4
+1,GESTIONE DIRETTA SSP,294,"Diabete, età > 35 anni",2017,107
+1,GESTIONE DIRETTA SSP,295,"Diabete, età < 36 anni",2017,110
+1,GESTIONE DIRETTA SSP,296,"Disturbi della nutrizione e miscellanea di disturbi del metabolismo, età > 17 anni con CC",2017,129
+1,GESTIONE DIRETTA SSP,297,"Disturbi della nutrizione e miscellanea di disturbi del metabolismo, età > 17 anni senza CC",2017,131
+1,GESTIONE DIRETTA SSP,298,"Disturbi della nutrizione e miscellanea di disturbi del metabolismo, età < 18 anni",2017,98
+1,GESTIONE DIRETTA SSP,299,Difetti congeniti del metabolismo,2017,50
+1,GESTIONE DIRETTA SSP,3,"Craniotomia, età < 18 anni",2017,7
+1,GESTIONE DIRETTA SSP,30,"Stato stuporoso e coma di origine traumatica, coma < 1 ora, età < 18 anni",2017,25
+1,GESTIONE DIRETTA SSP,300,Malattie endocrine con CC,2017,26
+1,GESTIONE DIRETTA SSP,301,Malattie endocrine senza CC,2017,120
+1,GESTIONE DIRETTA SSP,303,Interventi su rene e uretere per neoplasia,2017,74
+1,GESTIONE DIRETTA SSP,304,"Interventi su rene e uretere, non per neoplasia con CC",2017,12
+1,GESTIONE DIRETTA SSP,305,"Interventi su rene e uretere, non per neoplasia senza CC",2017,40
+1,GESTIONE DIRETTA SSP,306,Prostatectomia con CC,2017,4
+1,GESTIONE DIRETTA SSP,307,Prostatectomia senza CC,2017,12
+1,GESTIONE DIRETTA SSP,308,Interventi minori sulla vescica con CC,2017,12
+1,GESTIONE DIRETTA SSP,309,Interventi minori sulla vescica senza CC,2017,23
+1,GESTIONE DIRETTA SSP,31,"Commozione cerebrale, età > 17 anni con CC",2017,37
+1,GESTIONE DIRETTA SSP,310,Interventi per via transuretrale con CC,2017,143
+1,GESTIONE DIRETTA SSP,311,Interventi per via transuretrale senza CC,2017,609
+1,GESTIONE DIRETTA SSP,312,"Interventi sull'uretra, età > 17 anni con CC",2017,1
+1,GESTIONE DIRETTA SSP,313,"Interventi sull'uretra, età > 17 anni senza CC",2017,25
+1,GESTIONE DIRETTA SSP,315,Altri interventi sul rene e sulle vie urinarie,2017,100
+1,GESTIONE DIRETTA SSP,316,Insufficienza renale,2017,422
+1,GESTIONE DIRETTA SSP,317,Ricovero per dialisi renale,2017,2
+1,GESTIONE DIRETTA SSP,318,Neoplasie del rene e delle vie urinarie con CC,2017,65
+1,GESTIONE DIRETTA SSP,319,Neoplasie del rene e delle vie urinarie senza CC,2017,67
+1,GESTIONE DIRETTA SSP,32,"Commozione cerebrale, età > 17 anni senza CC",2017,68
+1,GESTIONE DIRETTA SSP,320,"Infezioni del rene e delle vie urinarie, età > 17 anni con CC",2017,156
+1,GESTIONE DIRETTA SSP,321,"Infezioni del rene e delle vie urinarie, età > 17 anni senza CC",2017,213
+1,GESTIONE DIRETTA SSP,322,"Infezioni del rene e delle vie urinarie, età < 18 anni",2017,66
+1,GESTIONE DIRETTA SSP,323,Calcolosi urinaria con CC e/o litotripsia mediante ultrasuoni,2017,114
+1,GESTIONE DIRETTA SSP,324,Calcolosi urinaria senza CC,2017,159
+1,GESTIONE DIRETTA SSP,325,"Segni e sintomi relativi a rene e vie urinarie, età > 17 anni con CC",2017,18
+1,GESTIONE DIRETTA SSP,326,"Segni e sintomi relativi a rene e vie urinarie, età > 17 anni senza CC",2017,65
+1,GESTIONE DIRETTA SSP,327,"Segni e sintomi relativi a rene e vie urinarie, età < 18 anni",2017,5
+1,GESTIONE DIRETTA SSP,328,"Stenosi uretrale, età > 17 anni con CC",2017,5
+1,GESTIONE DIRETTA SSP,329,"Stenosi uretrale, età > 17 anni senza CC",2017,36
+1,GESTIONE DIRETTA SSP,33,"Commozione cerebrale, età < 18 anni",2017,20
+1,GESTIONE DIRETTA SSP,330,"Stenosi uretrale, età < 18 anni",2017,6
+1,GESTIONE DIRETTA SSP,331,"Altre diagnosi relative a rene e vie urinarie, età > 17 anni con CC",2017,42
+1,GESTIONE DIRETTA SSP,332,"Altre diagnosi relative a rene e vie urinarie, età > 17 anni senza CC",2017,88
+1,GESTIONE DIRETTA SSP,333,"Altre diagnosi relative a rene e vie urinarie, età < 18 anni",2017,60
+1,GESTIONE DIRETTA SSP,334,Interventi maggiori sulla pelvi maschile con CC,2017,13
+1,GESTIONE DIRETTA SSP,335,Interventi maggiori sulla pelvi maschile senza CC,2017,94
+1,GESTIONE DIRETTA SSP,336,Prostatectomia transuretrale con CC,2017,19
+1,GESTIONE DIRETTA SSP,337,Prostatectomia transuretrale senza CC,2017,155
+1,GESTIONE DIRETTA SSP,338,Interventi sul testicolo per neoplasia maligna,2017,22
+1,GESTIONE DIRETTA SSP,339,"Interventi sul testicolo non per neoplasie maligne, età > 17 anni",2017,208
+1,GESTIONE DIRETTA SSP,34,Altre malattie del sistema nervoso con CC,2017,64
+1,GESTIONE DIRETTA SSP,340,"Interventi sul testicolo non per neoplasie maligne, età < 18 anni",2017,140
+1,GESTIONE DIRETTA SSP,341,Interventi sul pene,2017,85
+1,GESTIONE DIRETTA SSP,342,"Circoncisione, età > 17 anni",2017,251
+1,GESTIONE DIRETTA SSP,343,"Circoncisione, età < 18 anni",2017,136
+1,GESTIONE DIRETTA SSP,344,Altri interventi sull'apparato riproduttivo maschile per neoplasie maligne,2017,15
+1,GESTIONE DIRETTA SSP,345,Altri interventi sull'apparato riproduttivo maschile eccetto per neoplasie maligne,2017,9
+1,GESTIONE DIRETTA SSP,346,Neoplasie maligne dell’apparato genitale maschile con CC,2017,18
+1,GESTIONE DIRETTA SSP,347,Neoplasie maligne dell'apparato genitale maschile senza CC,2017,12
+1,GESTIONE DIRETTA SSP,348,Ipertrofia prostatica benigna con CC,2017,5
+1,GESTIONE DIRETTA SSP,349,Ipertrofia prostatica benigna senza CC,2017,13
+1,GESTIONE DIRETTA SSP,35,Altre malattie del sistema nervoso senza CC,2017,186
+1,GESTIONE DIRETTA SSP,350,Infiammazioni dell'apparato riproduttivo maschile,2017,54
+1,GESTIONE DIRETTA SSP,352,Altre diagnosi relative all'apparato riproduttivo maschile,2017,25
+1,GESTIONE DIRETTA SSP,353,"Eviscerazione pelvica, isterectomia radicale e vulvectomia radicale",2017,69
+1,GESTIONE DIRETTA SSP,354,Interventi su utero e su annessi per neoplasie maligne non dell'ovaio o degli annessi con CC,2017,1
+1,GESTIONE DIRETTA SSP,355,Interventi su utero e su annessi per neoplasie maligne non dell'ovaio o degli annessi senza CC,2017,60
+1,GESTIONE DIRETTA SSP,356,Interventi ricostruttivi dell'apparato riproduttivo femminile,2017,100
+1,GESTIONE DIRETTA SSP,357,Interventi su utero e annessi per neoplasie maligne dell'ovaio o degli annessi,2017,39
+1,GESTIONE DIRETTA SSP,358,Interventi su utero e annessi non per neoplasie maligne con CC,2017,31
+1,GESTIONE DIRETTA SSP,359,Interventi su utero e annessi non per neoplasie maligne senza CC,2017,1543
+1,GESTIONE DIRETTA SSP,36,Interventi sulla retina,2017,430
+1,GESTIONE DIRETTA SSP,360,"Interventi su vagina, cervice e vulva",2017,112
+1,GESTIONE DIRETTA SSP,361,Laparoscopia e occlusione laparotomica delle tube,2017,29
+1,GESTIONE DIRETTA SSP,362,Occlusione endoscopica delle tube,2017,18
+1,GESTIONE DIRETTA SSP,363,"Dilatazione e raschiamento, conizzazione e impianto materiale radioattivo per neoplasie maligne",2017,27
+1,GESTIONE DIRETTA SSP,364,"Dilatazione e raschiamento, conizzazione eccetto per neoplasie maligne",2017,346
+1,GESTIONE DIRETTA SSP,365,Altri interventi sull'apparato riproduttivo femminile,2017,9
+1,GESTIONE DIRETTA SSP,366,Neoplasie maligne apparato riproduttivo femminile con CC,2017,29
+1,GESTIONE DIRETTA SSP,367,Neoplasie maligne dell'apparato riproduttivo femminile senza CC,2017,23
+1,GESTIONE DIRETTA SSP,368,Infezioni dell'apparato riproduttivo femminile,2017,27
+1,GESTIONE DIRETTA SSP,369,Disturbi mestruali e altri disturbi dell'apparato riproduttivo femminile,2017,84
+1,GESTIONE DIRETTA SSP,37,Interventi sull'orbita,2017,18
+1,GESTIONE DIRETTA SSP,370,Parto cesareo con CC,2017,91
+1,GESTIONE DIRETTA SSP,371,Parto cesareo senza CC,2017,809
+1,GESTIONE DIRETTA SSP,372,Parto vaginale con diagnosi complicanti,2017,381
+1,GESTIONE DIRETTA SSP,373,Parto vaginale senza diagnosi complicanti,2017,2729
+1,GESTIONE DIRETTA SSP,374,Parto vaginale con sterilizzazione e/o dilatazione e raschiamento,2017,51
+1,GESTIONE DIRETTA SSP,375,Parto vaginale con altro intervento eccetto sterilizzazione e/o dilatazione e raschiamento,2017,26
+1,GESTIONE DIRETTA SSP,376,Diagnosi relative a postparto e postaborto senza intervento chirurgico,2017,72
+1,GESTIONE DIRETTA SSP,377,Diagnosi relative a postparto e postaborto con intervento chirurgico,2017,42
+1,GESTIONE DIRETTA SSP,378,Gravidanza ectopica,2017,68
+1,GESTIONE DIRETTA SSP,379,Minaccia di aborto,2017,112
+1,GESTIONE DIRETTA SSP,38,Interventi primari sull'iride,2017,24
+1,GESTIONE DIRETTA SSP,380,Aborto senza dilatazione e raschiamento,2017,128
+1,GESTIONE DIRETTA SSP,381,"Aborto con dilatazione e raschiamento, mediante aspirazione o isterotomia",2017,719
+1,GESTIONE DIRETTA SSP,382,Falso travaglio,2017,47
+1,GESTIONE DIRETTA SSP,383,Altre diagnosi preparto con complicazioni mediche,2017,221
+1,GESTIONE DIRETTA SSP,384,Altre diagnosi preparto senza complicazioni mediche,2017,123
+1,GESTIONE DIRETTA SSP,385,Neonati morti o trasferiti ad altre strutture di assistenza per acuti,2017,51
+1,GESTIONE DIRETTA SSP,386,Neonati gravemente immaturi o con sindrome da distress respiratorio,2017,66
+1,GESTIONE DIRETTA SSP,387,Prematurità con affezioni maggiori,2017,30
+1,GESTIONE DIRETTA SSP,388,Prematurità senza affezioni maggiori,2017,182
+1,GESTIONE DIRETTA SSP,389,Neonati a termine con affezioni maggiori,2017,160
+1,GESTIONE DIRETTA SSP,39,Interventi sul cristallino con o senza vitrectomia,2017,139
+1,GESTIONE DIRETTA SSP,390,Neonati con altre affezioni significative,2017,227
+1,GESTIONE DIRETTA SSP,391,Neonato normale,2017,3521
+1,GESTIONE DIRETTA SSP,392,"Splenectomia, età > 17 anni",2017,7
+1,GESTIONE DIRETTA SSP,393,"Splenectomia, età < 18 anni",2017,1
+1,GESTIONE DIRETTA SSP,394,Altri interventi sugli organi emopoietici,2017,28
+1,GESTIONE DIRETTA SSP,395,"Anomalie dei globuli rossi, età > 17 anni",2017,448
+1,GESTIONE DIRETTA SSP,396,"Anomalie dei globuli rossi, età < 18 anni",2017,12
+1,GESTIONE DIRETTA SSP,397,Disturbi della coagulazione,2017,64
+1,GESTIONE DIRETTA SSP,398,Disturbi sistema reticoloendoteliale e immunitario con CC,2017,21
+1,GESTIONE DIRETTA SSP,399,Disturbi sistema reticoloendoteliale e immunitario senza CC,2017,71
+1,GESTIONE DIRETTA SSP,40,"Interventi sulle strutture extraoculari eccetto l'orbita, età > 17 anni",2017,182
+1,GESTIONE DIRETTA SSP,401,Linfoma e leucemia non acuta con altri interventi chirurgici con CC,2017,7
+1,GESTIONE DIRETTA SSP,402,Linfoma e leucemia non acuta con altri interventi chirurgici senza CC,2017,55
+1,GESTIONE DIRETTA SSP,403,Linfoma e leucemia non acuta con CC,2017,69
+1,GESTIONE DIRETTA SSP,404,Linfoma e leucemia non acuta senza CC,2017,135
+1,GESTIONE DIRETTA SSP,405,"Leucemia acuta senza interventi chirurgici maggiori, età < 18 anni",2017,26
+1,GESTIONE DIRETTA SSP,406,Alterazioni mieloproliferative o neoplasie poco differenziate con interventi maggiori con CC,2017,12
+1,GESTIONE DIRETTA SSP,407,Alterazioni mieloproliferative o neoplasie poco differenziate con interventi maggiori senza CC,2017,23
+1,GESTIONE DIRETTA SSP,408,Alterazioni mieloproliferative o neoplasie poco differenziate con altri interventi,2017,364
+1,GESTIONE DIRETTA SSP,409,Radioterapia,2017,151
+1,GESTIONE DIRETTA SSP,41,"Interventi sulle strutture extraoculari eccetto l'orbita, età < 18 anni",2017,45
+1,GESTIONE DIRETTA SSP,410,Chemioterapia non associata a diagnosi secondaria di leucemia acuta,2017,2371
+1,GESTIONE DIRETTA SSP,411,Anamnesi di neoplasia maligna senza endoscopia,2017,47
+1,GESTIONE DIRETTA SSP,412,Anamnesi di neoplasia maligna con endoscopia,2017,189
+1,GESTIONE DIRETTA SSP,413,Altre alterazioni mieloproliferative e neoplasie poco differenziate con CC,2017,10
+1,GESTIONE DIRETTA SSP,414,Altre alterazioni mieloproliferative e neoplasie poco differenziate senza CC,2017,13
+1,GESTIONE DIRETTA SSP,417,"Setticemia, età < 18 anni",2017,13
+1,GESTIONE DIRETTA SSP,418,Infezioni post-chirurgiche e post-traumatiche,2017,20
+1,GESTIONE DIRETTA SSP,419,"Febbre di origine sconosciuta, età > 17 anni con CC",2017,45
+1,GESTIONE DIRETTA SSP,42,"Interventi sulle strutture intraoculari eccetto retina, iride e cristallino",2017,88
+1,GESTIONE DIRETTA SSP,420,"Febbre di origine sconosciuta, età > 17 anni senza CC",2017,39
+1,GESTIONE DIRETTA SSP,421,"Malattie di origine virale, età > 17 anni",2017,69
+1,GESTIONE DIRETTA SSP,422,"Malattie di origine virale e febbre di origine sconosciuta, età < 18 anni",2017,90
+1,GESTIONE DIRETTA SSP,423,Altre diagnosi relative a malattie infettive e parassitarie,2017,156
+1,GESTIONE DIRETTA SSP,424,Interventi chirurgici di qualunque tipo in pazienti con diagnosi principale di malattia mentale,2017,4
+1,GESTIONE DIRETTA SSP,425,Reazione acuta di adattamento e disfunzione psicosociale,2017,65
+1,GESTIONE DIRETTA SSP,426,Nevrosi depressive,2017,40
+1,GESTIONE DIRETTA SSP,427,Nevrosi eccetto nevrosi depressive,2017,48
+1,GESTIONE DIRETTA SSP,428,Disturbi della personalità e del controllo degli impulsi,2017,176
+1,GESTIONE DIRETTA SSP,429,Disturbi organici e ritardo mentale,2017,153
+1,GESTIONE DIRETTA SSP,43,Ifema,2017,1
+1,GESTIONE DIRETTA SSP,430,Psicosi,2017,541
+1,GESTIONE DIRETTA SSP,431,Disturbi mentali dell'infanzia,2017,32
+1,GESTIONE DIRETTA SSP,432,Altre diagnosi relative a disturbi mentali,2017,14
+1,GESTIONE DIRETTA SSP,433,Abuso o dipendenza da alcool/farmaci; dimesso contro il parere dei sanitari,2017,16
+1,GESTIONE DIRETTA SSP,439,Trapianti di pelle per traumatismo,2017,13
+1,GESTIONE DIRETTA SSP,44,Infezioni acute maggiori dell'occhio,2017,19
+1,GESTIONE DIRETTA SSP,440,Sbrigliamento di ferite per traumatismo,2017,42
+1,GESTIONE DIRETTA SSP,441,Interventi sulla mano per traumatismo,2017,39
+1,GESTIONE DIRETTA SSP,442,Altri interventi chirurgici per traumatismo con CC,2017,24
+1,GESTIONE DIRETTA SSP,443,Altri interventi chirurgici per traumatismo senza CC,2017,89
+1,GESTIONE DIRETTA SSP,444,"Traumatismi, età > 17 anni con CC",2017,8
+1,GESTIONE DIRETTA SSP,445,"Traumatismi, età > 17 anni senza CC",2017,14
+1,GESTIONE DIRETTA SSP,446,"Traumatismi, età < 18 anni",2017,3
+1,GESTIONE DIRETTA SSP,447,"Reazioni allergiche, età > 17 anni",2017,12
+1,GESTIONE DIRETTA SSP,448,"Reazioni allergiche, età < 18 anni",2017,3
+1,GESTIONE DIRETTA SSP,449,"Avvelenamenti ed effetti tossici farmaci, età > 17 anni con CC",2017,39
+1,GESTIONE DIRETTA SSP,45,Malattie neurologiche dell'occhio,2017,25
+1,GESTIONE DIRETTA SSP,450,"Avvelenamenti ed effetti tossici dei farmaci, età > 17 anni senza CC",2017,67
+1,GESTIONE DIRETTA SSP,451,"Avvelenamenti ed effetti tossici dei farmaci, età < 18 anni",2017,6
+1,GESTIONE DIRETTA SSP,452,Complicazioni di trattamenti con CC,2017,21
+1,GESTIONE DIRETTA SSP,453,Complicazioni di trattamenti senza CC,2017,63
+1,GESTIONE DIRETTA SSP,454,"Altre diagnosi di traumatismi, avvelenamenti ed effetti tossici con CC",2017,5
+1,GESTIONE DIRETTA SSP,455,"Altre diagnosi di traumatismi, avvelenamenti ed effetti tossici senza CC",2017,18
+1,GESTIONE DIRETTA SSP,46,"Altre malattie dell'occhio, età > 17 anni con CC",2017,11
+1,GESTIONE DIRETTA SSP,461,Intervento con diagnosi di altro contatto con i servizi sanitari,2017,22
+1,GESTIONE DIRETTA SSP,462,Riabilitazione,2017,148
+1,GESTIONE DIRETTA SSP,463,Segni e sintomi con CC,2017,25
+1,GESTIONE DIRETTA SSP,464,Segni e sintomi senza CC,2017,22
+1,GESTIONE DIRETTA SSP,465,Assistenza riabilitativa con anamnesi di neoplasia maligna come diagnosi secondaria,2017,31
+1,GESTIONE DIRETTA SSP,466,Assistenza riabilitativa senza anamnesi di neoplasia maligna come diagnosi secondaria,2017,79
+1,GESTIONE DIRETTA SSP,467,Altri fattori che influenzano lo stato di salute,2017,581
+1,GESTIONE DIRETTA SSP,468,Intervento chirurgico esteso non correlato con la diagnosi principale,2017,70
+1,GESTIONE DIRETTA SSP,47,"Altre malattie dell'occhio, età > 17 anni senza CC",2017,21
+1,GESTIONE DIRETTA SSP,471,Interventi maggiori bilaterali o multipli sulle articolazioni degli arti inferiori,2017,5
+1,GESTIONE DIRETTA SSP,473,"Leucemia acuta senza interventi chirurgici maggiori, età > 17 anni",2017,48
+1,GESTIONE DIRETTA SSP,476,Intervento chirurgico sulla prostata non correlato con la diagnosi principale,2017,2
+1,GESTIONE DIRETTA SSP,477,Intervento chirurgico non esteso non correlato con la diagnosi principale,2017,32
+1,GESTIONE DIRETTA SSP,479,Altri interventi sul sistema cardiovascolare senza CC,2017,187
+1,GESTIONE DIRETTA SSP,48,"Altre malattie dell'occhio, età < 18 anni",2017,11
+1,GESTIONE DIRETTA SSP,482,"Tracheostomia per diagnosi relative a faccia, bocca e collo",2017,33
+1,GESTIONE DIRETTA SSP,485,"Reimpianto di arti, interventi su anca e femore per traumatismi multipli rilevanti",2017,19
+1,GESTIONE DIRETTA SSP,486,Altri interventi chirurgici per traumatismi multipli rilevanti,2017,35
+1,GESTIONE DIRETTA SSP,487,Altri traumatismi multipli rilevanti,2017,97
+1,GESTIONE DIRETTA SSP,489,H.I.V. associato ad altre patologie maggiori correlate,2017,20
+1,GESTIONE DIRETTA SSP,49,Interventi maggiori sul capo e sul collo,2017,57
+1,GESTIONE DIRETTA SSP,490,H.I.V. associato o non ad altre patologie correlate,2017,21
+1,GESTIONE DIRETTA SSP,491,Interventi su articolazioni maggiori e reimpianti di arti superiori,2017,84
+1,GESTIONE DIRETTA SSP,492,Chemioterapia associata a diagnosi secondaria di leucemia acuta o con uso di alte dosi di agenti chemioterapici,2017,114
+1,GESTIONE DIRETTA SSP,493,Colecistectomia laparoscopica senza esplorazione del dotto biliare comune con CC,2017,70
+1,GESTIONE DIRETTA SSP,494,Colecistectomia laparoscopica senza esplorazione del dotto biliare comune senza CC,2017,663
+1,GESTIONE DIRETTA SSP,496,Artrodesi vertebrale con approccio anteriore/posteriore combinato,2017,3
+1,GESTIONE DIRETTA SSP,497,Artrodesi verterbale eccetto cervicale con CC,2017,7
+1,GESTIONE DIRETTA SSP,498,Artrodesi vertebrale eccetto cervicale senza CC,2017,102
+1,GESTIONE DIRETTA SSP,50,Sialoadenectomia,2017,48
+1,GESTIONE DIRETTA SSP,500,Interventi su dorso e collo eccetto per artrodesi vertebrale senza CC,2017,222
+1,GESTIONE DIRETTA SSP,501,Interventi sul ginocchio con diagnosi principale di infezione con CC,2017,1
+1,GESTIONE DIRETTA SSP,503,Interventi sul ginocchio senza diagnosi principale di infezione,2017,901
+1,GESTIONE DIRETTA SSP,507,Ustioni estese a tutto spessore con innesto di cute o lesione da inalazione senza CC o trauma significativo,2017,1
+1,GESTIONE DIRETTA SSP,509,Ustioni estese a tutto spessore senza innesto di cute o lesione da inalazione senza CC o trauma significativo,2017,1
+1,GESTIONE DIRETTA SSP,51,Interventi sulle ghiandole salivari eccetto sialoadenectomia,2017,8
+1,GESTIONE DIRETTA SSP,510,Ustioni non estese con CC o trauma significativo,2017,3
+1,GESTIONE DIRETTA SSP,511,Ustioni non estese senza CC o trauma significativo,2017,9
+1,GESTIONE DIRETTA SSP,515,Impianto di defibrillatore cardiaco senza cateterismo cardiaco,2017,91
+1,GESTIONE DIRETTA SSP,518,Interventi sul sistema cardiovascolare per via percutanea senza inserzione di stent nell’arteria coronarica senza IMA,2017,409
+1,GESTIONE DIRETTA SSP,520,Artrodesi vertebrale cervicale senza CC,2017,16
+1,GESTIONE DIRETTA SSP,521,Abuso o dipendenza da alcool/farmaci con CC,2017,11
+1,GESTIONE DIRETTA SSP,522,Abuso o dipendenza da alcool/farmaci con terapia riabilitativa senza CC,2017,3
+1,GESTIONE DIRETTA SSP,523,Abuso o dipendenza da alcool/farmaci senza terapia riabilitativa senza CC,2017,41
+1,GESTIONE DIRETTA SSP,524,Ischemia cerebrale transitoria,2017,262
+1,GESTIONE DIRETTA SSP,528,Interventi vascolari intracranici con diagnosi principale di emorragia,2017,15
+1,GESTIONE DIRETTA SSP,529,Interventi di anastomosi ventricolare con CC,2017,10
+1,GESTIONE DIRETTA SSP,53,"Interventi su seni e mastoide, età > 17 anni",2017,171
+1,GESTIONE DIRETTA SSP,530,Interventi di anastomosi ventricolare senza CC,2017,5
+1,GESTIONE DIRETTA SSP,531,Interventi sul midollo spinale con CC,2017,3
+1,GESTIONE DIRETTA SSP,532,Interventi sul midollo spinale senza CC,2017,29
+1,GESTIONE DIRETTA SSP,533,Interventi vascolari extracranici con CC,2017,49
+1,GESTIONE DIRETTA SSP,534,Interventi vascolari extracranici senza CC,2017,164
+1,GESTIONE DIRETTA SSP,535,"Impianto di defibrillatore cardiaco con cateterismo cardiaco con infarto miocardico acuto, insufficienza cardiaca o shock",2017,6
+1,GESTIONE DIRETTA SSP,536,"Impianto di defibrillatore cardiaco con cateterismo cardiaco senza infarto miocardico acuto, insufficienza cardiaca o shock",2017,35
+1,GESTIONE DIRETTA SSP,537,Escissione locale e rimozione di mezzi di fissazione interna eccetto anca e femore con CC,2017,107
+1,GESTIONE DIRETTA SSP,538,Escissione locale e rimozione di mezzi di fissazione interna eccetto anca e femore senza CC,2017,647
+1,GESTIONE DIRETTA SSP,539,Linfoma e leucemia con interventi chirurgici maggiori con CC,2017,7
+1,GESTIONE DIRETTA SSP,54,"Interventi su seni e mastoide, età < 18 anni",2017,5
+1,GESTIONE DIRETTA SSP,540,Linfoma e leucemia con interventi chirurgici maggiori senza CC,2017,63
+1,GESTIONE DIRETTA SSP,541,"Ossigenazione extracorporea a membrane o tracheostomia con ventilazione meccanica = 96 ore o diagnosi principale non relativa a  faccia, bocca e collo",2017,70
+1,GESTIONE DIRETTA SSP,542,"Tracheostomia con ventilazione meccanica = 96 ore o diagnosi principale non relativa a faccia, bocca e collo senza intervento chirurgico maggiore",2017,40
+1,GESTIONE DIRETTA SSP,543,Craniotomia con impianto di dispositivo maggiore o diagnosi principale di patologia acuta complessa del sistema nervoso centrale,2017,11
+1,GESTIONE DIRETTA SSP,544,Sostituzione di articolazioni maggiori o reimpianto degli arti inferiori,2017,1255
+1,GESTIONE DIRETTA SSP,545,Revisione di sostituzione dell'anca o del ginocchio,2017,75
+1,GESTIONE DIRETTA SSP,546,Artrodesi verterbale eccetto cervicale con deviazione della colonna vertebrale o neoplasia maligna,2017,1
+1,GESTIONE DIRETTA SSP,547,Bypass coronarico con cateterismo cardiaco con diagnosi cardiovascolare maggiore,2017,6
+1,GESTIONE DIRETTA SSP,548,Bypass coronarico con cateterismo cardiaco senza diagnosi cardiovascolare maggiore,2017,29
+1,GESTIONE DIRETTA SSP,549,Bypass coronarico senza cateterismo cardiaco con diagnosi cardiovascolare maggiore,2017,9
+1,GESTIONE DIRETTA SSP,55,"Miscellanea di interventi su orecchio, naso, bocca e gola",2017,516
+1,GESTIONE DIRETTA SSP,550,Bypass coronarico senza cateterismo cardiaco senza diagnosi cardiovascolare maggiore,2017,91
+1,GESTIONE DIRETTA SSP,551,Impianto di pacemaker cardiaco permanente con diagnosi cardiovascolare maggiore o di defibrillatore automatico (AICD) o di generatore di impulsi,2017,102
+1,GESTIONE DIRETTA SSP,552,Altro impianto di pacemaker cardiaco permanente senza diagnosi cardiovascolare maggiore,2017,312
+1,GESTIONE DIRETTA SSP,553,Altri interventi vascolari con CC con diagnosi cardiovascolare maggiore,2017,14
+1,GESTIONE DIRETTA SSP,554,Altri interventi vascolari con CC senza diagnosi cardiovascolare maggiore,2017,161
+1,GESTIONE DIRETTA SSP,555,Interventi sul sistema cardiovascolare per via percutanea con diagnosi cardiovascolare maggiore,2017,103
+1,GESTIONE DIRETTA SSP,556,Interventi sul sistema cardiovascolare per via percutanea con stent non medicato senza diagnosi cardiovascolare maggiore,2017,3
+1,GESTIONE DIRETTA SSP,557,Interventi sul sistema cardiovascolare per via percutanea con stent medicato con diagnosi cardiovascolare maggiore,2017,499
+1,GESTIONE DIRETTA SSP,558,Interventi sul sistema cardiovascolare per via percutanea con stent medicato senza diagnosi cardiovascolare maggiore,2017,267
+1,GESTIONE DIRETTA SSP,559,Ictus ischemico acuto con uso di agenti trombolitici,2017,73
+1,GESTIONE DIRETTA SSP,56,Rinoplastica,2017,27
+1,GESTIONE DIRETTA SSP,560,Infezioni batteriche e tubercolosi del sistema nervoso,2017,32
+1,GESTIONE DIRETTA SSP,561,Infezioni non batteriche del sistema nervoso eccetto meningite virale,2017,104
+1,GESTIONE DIRETTA SSP,562,"Convulsioni, età > 17 anni con CC",2017,116
+1,GESTIONE DIRETTA SSP,563,"Convulsioni, età > 17 anni senza CC",2017,135
+1,GESTIONE DIRETTA SSP,564,"Cefalea, età > 17 anni",2017,62
+1,GESTIONE DIRETTA SSP,565,Diagnosi relative all'apparato respiratorio con respirazione assistita = 96 ore,2017,88
+1,GESTIONE DIRETTA SSP,566,Diagnosi relative all'apparato respiratorio con respirazione assistita < 96 ore,2017,100
+1,GESTIONE DIRETTA SSP,567,"Interventi su esofago, stomaco e duodeno, età > 17 anni con CC con diagnosi gastrointestinale maggiore",2017,32
+1,GESTIONE DIRETTA SSP,568,"Interventi su esofago, stomaco e duodeno, età > 17 anni con CC senza diagnosi gastrointestinale maggiore",2017,34
+1,GESTIONE DIRETTA SSP,569,Interventi maggiori su intestino crasso e tenue con CC con diagnosi gastrointestinale maggiore,2017,200
+1,GESTIONE DIRETTA SSP,57,"Interventi su tonsille e adenoidi eccetto solo tonsillectomia e/o adenoidectomia, età >17 anni",2017,42
+1,GESTIONE DIRETTA SSP,570,Interventi maggiori su intestino crasso e tenue con CC senza diagnosi gastrointestinale maggiore,2017,80
+1,GESTIONE DIRETTA SSP,571,Malattie maggiori dell'esofago,2017,33
+1,GESTIONE DIRETTA SSP,572,Malattie gastrointestinali maggiori e infezioni peritoneali,2017,131
+1,GESTIONE DIRETTA SSP,573,Interventi maggiori sulla vescica,2017,20
+1,GESTIONE DIRETTA SSP,574,Diagnosi ematologiche/immunologiche maggiori eccetto anemia falciforme e coagulopatie,2017,108
+1,GESTIONE DIRETTA SSP,575,"Setticemia con ventilazione meccanica = 96 ore, età > 17 anni",2017,29
+1,GESTIONE DIRETTA SSP,576,"Setticemia senza ventilazione meccanica  = 96 ore, età > 17 anni",2017,899
+1,GESTIONE DIRETTA SSP,577,Inserzione di stent carotideo,2017,10
+1,GESTIONE DIRETTA SSP,578,Malattie infettive e parassitarie con intervento chirurgico,2017,67
+1,GESTIONE DIRETTA SSP,579,Infezioni post-operatorie o post-traumatiche con intervento chirurgico,2017,9
+1,GESTIONE DIRETTA SSP,58,"Interventi su tonsille e adenoidi eccetto solo tonsillectomia e/o adenoidectomia, età < 18 anni",2017,47
+1,GESTIONE DIRETTA SSP,59,"Tonsillectomia e/o adenoidectomia, età > 17 anni",2017,117
+1,GESTIONE DIRETTA SSP,6,Decompressione del tunnel carpale,2017,32
+1,GESTIONE DIRETTA SSP,60,"Tonsillectomia e/o adenoidectomia, età < 18 anni",2017,340
+1,GESTIONE DIRETTA SSP,61,"Miringotomia con inserzione di tubo, età > 17 anni",2017,7
+1,GESTIONE DIRETTA SSP,62,"Miringotomia con inserzione di tubo, età < 18 anni",2017,122
+1,GESTIONE DIRETTA SSP,63,"Altri interventi su orecchio, naso, bocca e gola",2017,130
+1,GESTIONE DIRETTA SSP,64,"Neoplasie maligne di orecchio, naso, bocca e gola",2017,36
+1,GESTIONE DIRETTA SSP,65,Alterazioni dell'equilibrio,2017,92
+1,GESTIONE DIRETTA SSP,66,Epistassi,2017,5
+1,GESTIONE DIRETTA SSP,68,"Otite media e infezioni alte vie respiratorie, età > 17 anni con CC",2017,17
+1,GESTIONE DIRETTA SSP,69,"Otite media e infezioni alte vie respiratorie, età > 17 anni senza CC",2017,54
+1,GESTIONE DIRETTA SSP,7,Interventi su nervi periferici e cranici e altri interventi su sistema nervoso con CC,2017,6
+1,GESTIONE DIRETTA SSP,70,"Otite media e infezioni alte vie respiratorie, età < 18 anni",2017,75
+1,GESTIONE DIRETTA SSP,71,Laringotracheite,2017,1
+1,GESTIONE DIRETTA SSP,72,Traumatismi e deformità del naso,2017,29
+1,GESTIONE DIRETTA SSP,73,"Altre diagnosi relative a orecchio, naso, bocca e gola, età > 17 anni",2017,73
+1,GESTIONE DIRETTA SSP,74,"Altre diagnosi relative a orecchio, naso, bocca e gola, età < 18 anni",2017,32
+1,GESTIONE DIRETTA SSP,75,Interventi maggiori sul torace,2017,88
+1,GESTIONE DIRETTA SSP,76,Altri interventi sull'apparato respiratorio con CC,2017,30
+1,GESTIONE DIRETTA SSP,77,Altri interventi sull'apparato respiratorio senza CC,2017,34
+1,GESTIONE DIRETTA SSP,78,Embolia polmonare,2017,284
+1,GESTIONE DIRETTA SSP,79,"Infezioni e infiammazioni respiratorie, età > 17 anni con CC",2017,153
+1,GESTIONE DIRETTA SSP,8,Interventi su nervi periferici e cranici e altri interventi su sistema nervoso senza CC,2017,88
+1,GESTIONE DIRETTA SSP,80,"Infezioni e infiammazioni respiratorie, età > 17 anni senza CC",2017,80
+1,GESTIONE DIRETTA SSP,81,"Infezioni e infiammazioni respiratorie, età < 18 anni",2017,7
+1,GESTIONE DIRETTA SSP,82,Neoplasie dell'apparato respiratorio,2017,218
+1,GESTIONE DIRETTA SSP,83,Traumi maggiori del torace con CC,2017,122
+1,GESTIONE DIRETTA SSP,84,Traumi maggiori del torace senza CC,2017,97
+1,GESTIONE DIRETTA SSP,85,Versamento pleurico con CC,2017,56
+1,GESTIONE DIRETTA SSP,86,Versamento pleurico senza CC,2017,28
+1,GESTIONE DIRETTA SSP,87,Edema polmonare e insufficienza respiratoria,2017,1440
+1,GESTIONE DIRETTA SSP,88,Malattia polmonare cronica ostruttiva,2017,266
+1,GESTIONE DIRETTA SSP,89,"Polmonite semplice e pleurite, età > 17 anni con CC",2017,772
+1,GESTIONE DIRETTA SSP,9,Malattie e traumatismi del midollo spinale,2017,87
+1,GESTIONE DIRETTA SSP,90,"Polmonite semplice e pleurite, età > 17 anni senza CC",2017,313
+1,GESTIONE DIRETTA SSP,91,"Polmonite semplice e pleurite, età < 18 anni",2017,71
+1,GESTIONE DIRETTA SSP,92,Malattia polmonare interstiziale con CC,2017,111
+1,GESTIONE DIRETTA SSP,93,Malattia polmonare interstiziale senza CC,2017,50
+1,GESTIONE DIRETTA SSP,94,Pneumotorace con CC,2017,73
+1,GESTIONE DIRETTA SSP,95,Pneumotorace senza CC,2017,95
+1,GESTIONE DIRETTA SSP,96,"Bronchite e asma, età > 17 anni con CC",2017,102
+1,GESTIONE DIRETTA SSP,97,"Bronchite e asma, età > 17 anni senza CC",2017,74
+1,GESTIONE DIRETTA SSP,98,"Bronchite e asma, età < 18 anni",2017,144
+1,GESTIONE DIRETTA SSP,99,Segni e sintomi respiratori con CC,2017,17
+2,NON GESTIONE DIRETTA SSP,10,Neoplasie del sistema nervoso con CC,2017,6
+2,NON GESTIONE DIRETTA SSP,100,Segni e sintomi respiratori senza CC,2017,4
+2,NON GESTIONE DIRETTA SSP,101,Altre diagnosi relative all'apparato respiratorio con CC,2017,12
+2,NON GESTIONE DIRETTA SSP,102,Altre diagnosi relative all'apparato respiratorio senza CC,2017,14
+2,NON GESTIONE DIRETTA SSP,11,Neoplasie del sistema nervoso senza CC,2017,6
+2,NON GESTIONE DIRETTA SSP,119,Legatura e stripping di vene,2017,118
+2,NON GESTIONE DIRETTA SSP,12,Malattie degenerative del sistema nervoso,2017,261
+2,NON GESTIONE DIRETTA SSP,120,Altri interventi sull'apparato circolatorio,2017,1
+2,NON GESTIONE DIRETTA SSP,121,"Malattie cardiovascolari con infarto miocardico acuto e complicanze maggiori, dimessi vivi",2017,3
+2,NON GESTIONE DIRETTA SSP,126,Endocardite acuta e subacuta,2017,2
+2,NON GESTIONE DIRETTA SSP,127,Insufficienza cardiaca e shock,2017,239
+2,NON GESTIONE DIRETTA SSP,129,Arresto cardiaco senza causa apparente,2017,9
+2,NON GESTIONE DIRETTA SSP,13,Sclerosi multipla e atassia cerebellare,2017,9
+2,NON GESTIONE DIRETTA SSP,130,Malattie vascolari periferiche con CC,2017,25
+2,NON GESTIONE DIRETTA SSP,131,Malattie vascolari periferiche senza CC,2017,94
+2,NON GESTIONE DIRETTA SSP,132,Aterosclerosi con CC,2017,50
+2,NON GESTIONE DIRETTA SSP,133,Aterosclerosi senza CC,2017,394
+2,NON GESTIONE DIRETTA SSP,134,Ipertensione,2017,62
+2,NON GESTIONE DIRETTA SSP,135,"Malattie cardiache congenite e valvolari, età > 17 anni con CC",2017,21
+2,NON GESTIONE DIRETTA SSP,136,"Malattie cardiache congenite e valvolari, età > 17 anni senza CC",2017,38
+2,NON GESTIONE DIRETTA SSP,138,Aritmia e alterazioni della conduzione cardiaca con CC,2017,134
+2,NON GESTIONE DIRETTA SSP,139,Aritmia e alterazioni della conduzione cardiaca senza CC,2017,87
+2,NON GESTIONE DIRETTA SSP,14,Emorragia intracranica o infarto cerebrale,2017,45
+2,NON GESTIONE DIRETTA SSP,140,Angina pectoris,2017,27
+2,NON GESTIONE DIRETTA SSP,141,Sincope e collasso con CC,2017,11
+2,NON GESTIONE DIRETTA SSP,142,Sincope e collasso senza CC,2017,19
+2,NON GESTIONE DIRETTA SSP,143,Dolore toracico,2017,21
+2,NON GESTIONE DIRETTA SSP,144,Altre diagnosi relative all'apparato circolatorio con CC,2017,169
+2,NON GESTIONE DIRETTA SSP,145,Altre diagnosi relative all'apparato circolatorio senza CC,2017,1137
+2,NON GESTIONE DIRETTA SSP,147,Resezione rettale senza CC,2017,6
+2,NON GESTIONE DIRETTA SSP,149,Interventi maggiori su intestino crasso e tenue senza CC,2017,39
+2,NON GESTIONE DIRETTA SSP,15,Malattie cerebrovascolari acute aspecifiche e occlusione precerebrale senza infarto,2017,13
+2,NON GESTIONE DIRETTA SSP,150,Lisi di aderenze peritoneali con CC,2017,3
+2,NON GESTIONE DIRETTA SSP,151,Lisi di aderenze peritoneali senza CC,2017,74
+2,NON GESTIONE DIRETTA SSP,155,"Interventi su esofago, stomaco e duodeno, età > 17 anni senza CC",2017,1
+2,NON GESTIONE DIRETTA SSP,157,Interventi su ano e stoma con CC,2017,8
+2,NON GESTIONE DIRETTA SSP,158,Interventi su ano e stoma senza CC,2017,159
+2,NON GESTIONE DIRETTA SSP,159,"Interventi per ernia, eccetto inguinale e femorale, età > 17 anni con CC",2017,7
+2,NON GESTIONE DIRETTA SSP,16,Malattie cerebrovascolari aspecifiche con CC,2017,5
+2,NON GESTIONE DIRETTA SSP,160,"Interventi per ernia, eccetto inguinale e femorale, età > 17 anni senza CC",2017,23
+2,NON GESTIONE DIRETTA SSP,161,"Interventi per ernia inguinale e femorale, età > 17 anni con CC",2017,9
+2,NON GESTIONE DIRETTA SSP,162,"Interventi per ernia inguinale e femorale, età > 17 anni senza CC",2017,184
+2,NON GESTIONE DIRETTA SSP,167,Appendicectomia con diagnosi principale non complicata senza CC,2017,1
+2,NON GESTIONE DIRETTA SSP,169,Interventi sulla bocca senza CC,2017,10
+2,NON GESTIONE DIRETTA SSP,17,Malattie cerebrovascolari aspecifiche senza CC,2017,10
+2,NON GESTIONE DIRETTA SSP,171,Altri interventi sull'apparato digerente senza CC,2017,1
+2,NON GESTIONE DIRETTA SSP,172,Neoplasie maligne dell'apparato digerente con CC,2017,22
+2,NON GESTIONE DIRETTA SSP,173,Neoplasie maligne dell'apparato digerente senza CC,2017,13
+2,NON GESTIONE DIRETTA SSP,174,Emorragia gastrointestinale con CC,2017,13
+2,NON GESTIONE DIRETTA SSP,175,Emorragia gastrointestinale senza CC,2017,4
+2,NON GESTIONE DIRETTA SSP,176,Ulcera peptica complicata,2017,1
+2,NON GESTIONE DIRETTA SSP,179,Malattie infiammatorie dell'intestino,2017,7
+2,NON GESTIONE DIRETTA SSP,18,Malattie dei nervi cranici e periferici con CC,2017,12
+2,NON GESTIONE DIRETTA SSP,180,Occlusione gastrointestinale con CC,2017,10
+2,NON GESTIONE DIRETTA SSP,181,Occlusione gastrointestinale senza CC,2017,12
+2,NON GESTIONE DIRETTA SSP,182,"Esofagite, gastroenterite e miscellanea di malattie dell'apparato digerente, età >17 anni con CC",2017,16
+2,NON GESTIONE DIRETTA SSP,183,"Esofagite, gastroenterite e miscellanea di malattie dell'apparato digerente, età > 17 anni senza CC",2017,49
+2,NON GESTIONE DIRETTA SSP,185,"Malattie dei denti e del cavo orale, eccetto estrazione e riparazione, età > 17 anni",2017,2
+2,NON GESTIONE DIRETTA SSP,188,"Altre diagnosi relative all'apparato digerente, età > 17 anni con CC",2017,11
+2,NON GESTIONE DIRETTA SSP,189,"Altre diagnosi relative all'apparato digerente, età > 17 anni senza CC",2017,13
+2,NON GESTIONE DIRETTA SSP,19,Malattie dei nervi cranici e periferici senza CC,2017,33
+2,NON GESTIONE DIRETTA SSP,190,"Altre diagnosi relative all'apparato digerente, età < 18 anni",2017,1
+2,NON GESTIONE DIRETTA SSP,192,"Interventi su pancreas, fegato e di shunt senza CC",2017,1
+2,NON GESTIONE DIRETTA SSP,194,"Interventi sulle vie biliari, eccetto colecistectomia isolata con o senza esplorazione del dotto biliare comune senza CC",2017,1
+2,NON GESTIONE DIRETTA SSP,199,Procedure diagnostiche epatobiliari per neoplasie maligne,2017,1
+2,NON GESTIONE DIRETTA SSP,202,Cirrosi e epatite alcolica,2017,43
+2,NON GESTIONE DIRETTA SSP,203,Neoplasie maligne dell'apparato epatobiliare o del pancreas,2017,15
+2,NON GESTIONE DIRETTA SSP,204,Malattie del pancreas eccetto neoplasie maligne,2017,5
+2,NON GESTIONE DIRETTA SSP,205,"Malattie del fegato eccetto neoplasie maligne, cirrosi, epatite alcolica con CC",2017,9
+2,NON GESTIONE DIRETTA SSP,206,"Malattie del fegato eccetto neoplasie maligne, cirrosi, epatite alcolica senza CC",2017,9
+2,NON GESTIONE DIRETTA SSP,207,Malattie delle vie biliari con CC,2017,6
+2,NON GESTIONE DIRETTA SSP,208,Malattie delle vie biliari senza CC,2017,13
+2,NON GESTIONE DIRETTA SSP,211,"Interventi su anca e femore, eccetto articolazioni maggiori, età > 17 anni senza CC",2017,3
+2,NON GESTIONE DIRETTA SSP,212,"Interventi su anca e femore, eccetto articolazioni maggiori, età < 18 anni",2017,1
+2,NON GESTIONE DIRETTA SSP,216,Biopsie del sistema muscolo-scheletrico e tessuto connettivo,2017,1
+2,NON GESTIONE DIRETTA SSP,219,"Interventi su arto inferiore e omero eccetto anca, piede e femore, età > 17 anni senza CC",2017,4
+2,NON GESTIONE DIRETTA SSP,22,Encefalopatia ipertensiva,2017,3
+2,NON GESTIONE DIRETTA SSP,220,"Interventi su arto inferiore e omero eccetto anca, piede e femore, età < 18 anni",2017,1
+2,NON GESTIONE DIRETTA SSP,223,Interventi maggiori su spalla e gomito o altri interventi su arto superiore con CC,2017,350
+2,NON GESTIONE DIRETTA SSP,224,"Interventi su spalla, gomito o avambraccio eccetto interventi maggiori su articolazioni senza CC",2017,30
+2,NON GESTIONE DIRETTA SSP,225,Interventi sul piede,2017,83
+2,NON GESTIONE DIRETTA SSP,227,Interventi sui tessuti molli senza CC,2017,68
+2,NON GESTIONE DIRETTA SSP,228,Interventi maggiori sul pollice o sulle articolazioni o altri interventi mano o polso con CC,2017,9
+2,NON GESTIONE DIRETTA SSP,229,"Interventi su mano o polso eccetto interventi maggiori sulle articolazioni, senza CC",2017,199
+2,NON GESTIONE DIRETTA SSP,23,Stato stuporoso e coma di origine non traumatica,2017,5
+2,NON GESTIONE DIRETTA SSP,230,Escissione locale e rimozione di mezzi di fissaggio intramidollare di anca e femore,2017,3
+2,NON GESTIONE DIRETTA SSP,232,Artroscopia,2017,28
+2,NON GESTIONE DIRETTA SSP,234,Altri interventi su sistema muscolo-scheletrico e tessuto connettivo senza CC,2017,16
+2,NON GESTIONE DIRETTA SSP,235,Fratture del femore,2017,142
+2,NON GESTIONE DIRETTA SSP,236,Fratture dell'anca e della pelvi,2017,109
+2,NON GESTIONE DIRETTA SSP,237,"Distorsioni, stiramenti e lussazioni di anca, pelvi e coscia",2017,4
+2,NON GESTIONE DIRETTA SSP,238,Osteomielite,2017,11
+2,NON GESTIONE DIRETTA SSP,239,Fratture patologiche e neoplasie maligne del sistema muscolo-scheletrico e tessuto connettivo,2017,28
+2,NON GESTIONE DIRETTA SSP,240,Malattie del tessuto connettivo con CC,2017,10
+2,NON GESTIONE DIRETTA SSP,241,Malattie del tessuto connettivo senza CC,2017,26
+2,NON GESTIONE DIRETTA SSP,243,Affezioni mediche del dorso,2017,878
+2,NON GESTIONE DIRETTA SSP,244,Malattie dell'osso e artropatie specifiche con CC,2017,122
+2,NON GESTIONE DIRETTA SSP,245,Malattie dell'osso e artropatie specifiche senza CC,2017,461
+2,NON GESTIONE DIRETTA SSP,246,Artropatie non specifiche,2017,8
+2,NON GESTIONE DIRETTA SSP,247,Segni e sintomi relativi al sistema muscolo-scheletrico e al tessuto connettivo,2017,272
+2,NON GESTIONE DIRETTA SSP,248,"Tendinite, miosite e borsite",2017,234
+2,NON GESTIONE DIRETTA SSP,249,Assistenza riabilitativa per malattie del sistema muscolo-scheletrico e del tessuto connettivo,2017,496
+2,NON GESTIONE DIRETTA SSP,250,"Fratture, distorsioni, stiramenti e lussazioni di avambraccio, mano e piede, età > 17 anni con CC",2017,3
+2,NON GESTIONE DIRETTA SSP,251,"Fratture, distorsioni, stiramenti e lussazioni di avambraccio, mano e piede, età > 17 anni senza CC",2017,41
+2,NON GESTIONE DIRETTA SSP,252,"Fratture, distorsioni, stiramenti e lussazioni di avambraccio, mano e piede, età < 18 anni",2017,5
+2,NON GESTIONE DIRETTA SSP,253,"Fratture, distorsioni, stiramenti e lussazioni di braccio, gamba, eccetto piede, età > 17 anni con CC",2017,13
+2,NON GESTIONE DIRETTA SSP,254,"Fratture, distorsioni, stiramenti e lussazioni di braccio, gamba, eccetto piede, età > 17 anni senza CC",2017,54
+2,NON GESTIONE DIRETTA SSP,255,"Fratture, distorsioni, stiramenti e lussazioni di braccio, gamba, eccetto piede, età < 18 anni",2017,7
+2,NON GESTIONE DIRETTA SSP,256,Altre diagnosi del sistema muscolo-scheletrico e del tessuto connettivo,2017,1975
+2,NON GESTIONE DIRETTA SSP,259,Mastectomia subtotale per neoplasie maligne con CC,2017,1
+2,NON GESTIONE DIRETTA SSP,261,Interventi sulla mammella non per neoplasie maligne eccetto biopsia e escissione locale,2017,2
+2,NON GESTIONE DIRETTA SSP,263,Trapianti di pelle e/o sbrigliamenti per ulcere della pelle o cellulite con CC,2017,1
+2,NON GESTIONE DIRETTA SSP,266,Trapianti di pelle e/o sbrigliamenti eccetto per ulcere della pelle/cellulite senza CC,2017,10
+2,NON GESTIONE DIRETTA SSP,267,Interventi perianali e pilonidali,2017,40
+2,NON GESTIONE DIRETTA SSP,268,"Chirurgia plastica della pelle, del tessuto sottocutaneo e della mammella",2017,3
+2,NON GESTIONE DIRETTA SSP,269,"Altri interventi su pelle, tessuto sottocutaneo e mammella con CC",2017,1
+2,NON GESTIONE DIRETTA SSP,27,"Stato stuporoso e coma di origine traumatica, coma > 1 ora",2017,1
+2,NON GESTIONE DIRETTA SSP,270,"Altri interventi su pelle, tessuto sottocutaneo e mammella senza CC",2017,27
+2,NON GESTIONE DIRETTA SSP,271,Ulcere della pelle,2017,13
+2,NON GESTIONE DIRETTA SSP,272,Malattie maggiori della pelle con CC,2017,2
+2,NON GESTIONE DIRETTA SSP,273,Malattie maggiori della pelle senza CC,2017,1
+2,NON GESTIONE DIRETTA SSP,274,Neoplasie maligne della mammella con CC,2017,4
+2,NON GESTIONE DIRETTA SSP,276,Patologie non maligne della mammella,2017,4
+2,NON GESTIONE DIRETTA SSP,277,"Cellulite, età > 17 anni con CC",2017,3
+2,NON GESTIONE DIRETTA SSP,278,"Cellulite, età > 17 anni senza CC",2017,8
+2,NON GESTIONE DIRETTA SSP,28,"Stato stuporoso e coma di origine traumatica, coma < 1 ora, età > 17 anni con CC",2017,4
+2,NON GESTIONE DIRETTA SSP,280,"Traumi della pelle, del tessuto sottocutaneo e della mammella, età > 17 anni con CC",2017,13
+2,NON GESTIONE DIRETTA SSP,281,"Traumi della pelle, del tessuto sottocutaneo e della mammella, età > 17 anni senza CC",2017,13
+2,NON GESTIONE DIRETTA SSP,283,Malattie minori della pelle con CC,2017,8
+2,NON GESTIONE DIRETTA SSP,284,Malattie minori della pelle senza CC,2017,23
+2,NON GESTIONE DIRETTA SSP,288,Interventi per obesità,2017,31
+2,NON GESTIONE DIRETTA SSP,29,"Stato stuporoso e coma di origine traumatica, coma < 1 ora, età > 17 anni senza CC",2017,5
+2,NON GESTIONE DIRETTA SSP,290,Interventi sulla tiroide,2017,1
+2,NON GESTIONE DIRETTA SSP,294,"Diabete, età > 35 anni",2017,33
+2,NON GESTIONE DIRETTA SSP,296,"Disturbi della nutrizione e miscellanea di disturbi del metabolismo, età > 17 anni con CC",2017,73
+2,NON GESTIONE DIRETTA SSP,297,"Disturbi della nutrizione e miscellanea di disturbi del metabolismo, età > 17 anni senza CC",2017,718
+2,NON GESTIONE DIRETTA SSP,298,"Disturbi della nutrizione e miscellanea di disturbi del metabolismo, età < 18 anni",2017,10
+2,NON GESTIONE DIRETTA SSP,299,Difetti congeniti del metabolismo,2017,2
+2,NON GESTIONE DIRETTA SSP,300,Malattie endocrine con CC,2017,4
+2,NON GESTIONE DIRETTA SSP,301,Malattie endocrine senza CC,2017,16
+2,NON GESTIONE DIRETTA SSP,309,Interventi minori sulla vescica senza CC,2017,1
+2,NON GESTIONE DIRETTA SSP,316,Insufficienza renale,2017,49
+2,NON GESTIONE DIRETTA SSP,318,Neoplasie del rene e delle vie urinarie con CC,2017,9
+2,NON GESTIONE DIRETTA SSP,319,Neoplasie del rene e delle vie urinarie senza CC,2017,6
+2,NON GESTIONE DIRETTA SSP,32,"Commozione cerebrale, età > 17 anni senza CC",2017,4
+2,NON GESTIONE DIRETTA SSP,320,"Infezioni del rene e delle vie urinarie, età > 17 anni con CC",2017,13
+2,NON GESTIONE DIRETTA SSP,321,"Infezioni del rene e delle vie urinarie, età > 17 anni senza CC",2017,14
+2,NON GESTIONE DIRETTA SSP,323,Calcolosi urinaria con CC e/o litotripsia mediante ultrasuoni,2017,1
+2,NON GESTIONE DIRETTA SSP,324,Calcolosi urinaria senza CC,2017,1
+2,NON GESTIONE DIRETTA SSP,325,"Segni e sintomi relativi a rene e vie urinarie, età > 17 anni con CC",2017,7
+2,NON GESTIONE DIRETTA SSP,326,"Segni e sintomi relativi a rene e vie urinarie, età > 17 anni senza CC",2017,58
+2,NON GESTIONE DIRETTA SSP,328,"Stenosi uretrale, età > 17 anni con CC",2017,1
+2,NON GESTIONE DIRETTA SSP,329,"Stenosi uretrale, età > 17 anni senza CC",2017,1
+2,NON GESTIONE DIRETTA SSP,331,"Altre diagnosi relative a rene e vie urinarie, età > 17 anni con CC",2017,9
+2,NON GESTIONE DIRETTA SSP,332,"Altre diagnosi relative a rene e vie urinarie, età > 17 anni senza CC",2017,5
+2,NON GESTIONE DIRETTA SSP,338,Interventi sul testicolo per neoplasia maligna,2017,2
+2,NON GESTIONE DIRETTA SSP,339,"Interventi sul testicolo non per neoplasie maligne, età > 17 anni",2017,13
+2,NON GESTIONE DIRETTA SSP,34,Altre malattie del sistema nervoso con CC,2017,55
+2,NON GESTIONE DIRETTA SSP,340,"Interventi sul testicolo non per neoplasie maligne, età < 18 anni",2017,1
+2,NON GESTIONE DIRETTA SSP,342,"Circoncisione, età > 17 anni",2017,24
+2,NON GESTIONE DIRETTA SSP,343,"Circoncisione, età < 18 anni",2017,3
+2,NON GESTIONE DIRETTA SSP,346,Neoplasie maligne dell’apparato genitale maschile con CC,2017,5
+2,NON GESTIONE DIRETTA SSP,347,Neoplasie maligne dell'apparato genitale maschile senza CC,2017,1
+2,NON GESTIONE DIRETTA SSP,348,Ipertrofia prostatica benigna con CC,2017,3
+2,NON GESTIONE DIRETTA SSP,35,Altre malattie del sistema nervoso senza CC,2017,235
+2,NON GESTIONE DIRETTA SSP,350,Infiammazioni dell'apparato riproduttivo maschile,2017,1
+2,NON GESTIONE DIRETTA SSP,355,Interventi su utero e su annessi per neoplasie maligne non dell'ovaio o degli annessi senza CC,2017,2
+2,NON GESTIONE DIRETTA SSP,356,Interventi ricostruttivi dell'apparato riproduttivo femminile,2017,32
+2,NON GESTIONE DIRETTA SSP,357,Interventi su utero e annessi per neoplasie maligne dell'ovaio o degli annessi,2017,2
+2,NON GESTIONE DIRETTA SSP,359,Interventi su utero e annessi non per neoplasie maligne senza CC,2017,139
+2,NON GESTIONE DIRETTA SSP,360,"Interventi su vagina, cervice e vulva",2017,4
+2,NON GESTIONE DIRETTA SSP,361,Laparoscopia e occlusione laparotomica delle tube,2017,1
+2,NON GESTIONE DIRETTA SSP,365,Altri interventi sull'apparato riproduttivo femminile,2017,2
+2,NON GESTIONE DIRETTA SSP,366,Neoplasie maligne apparato riproduttivo femminile con CC,2017,3
+2,NON GESTIONE DIRETTA SSP,369,Disturbi mestruali e altri disturbi dell'apparato riproduttivo femminile,2017,8
+2,NON GESTIONE DIRETTA SSP,381,"Aborto con dilatazione e raschiamento, mediante aspirazione o isterotomia",2017,105
+2,NON GESTIONE DIRETTA SSP,39,Interventi sul cristallino con o senza vitrectomia,2017,45
+2,NON GESTIONE DIRETTA SSP,395,"Anomalie dei globuli rossi, età > 17 anni",2017,30
+2,NON GESTIONE DIRETTA SSP,397,Disturbi della coagulazione,2017,5
+2,NON GESTIONE DIRETTA SSP,398,Disturbi sistema reticoloendoteliale e immunitario con CC,2017,6
+2,NON GESTIONE DIRETTA SSP,399,Disturbi sistema reticoloendoteliale e immunitario senza CC,2017,8
+2,NON GESTIONE DIRETTA SSP,40,"Interventi sulle strutture extraoculari eccetto l'orbita, età > 17 anni",2017,22
+2,NON GESTIONE DIRETTA SSP,401,Linfoma e leucemia non acuta con altri interventi chirurgici con CC,2017,3
+2,NON GESTIONE DIRETTA SSP,403,Linfoma e leucemia non acuta con CC,2017,9
+2,NON GESTIONE DIRETTA SSP,404,Linfoma e leucemia non acuta senza CC,2017,6
+2,NON GESTIONE DIRETTA SSP,407,Alterazioni mieloproliferative o neoplasie poco differenziate con interventi maggiori senza CC,2017,1
+2,NON GESTIONE DIRETTA SSP,408,Alterazioni mieloproliferative o neoplasie poco differenziate con altri interventi,2017,4
+2,NON GESTIONE DIRETTA SSP,411,Anamnesi di neoplasia maligna senza endoscopia,2017,3
+2,NON GESTIONE DIRETTA SSP,413,Altre alterazioni mieloproliferative e neoplasie poco differenziate con CC,2017,6
+2,NON GESTIONE DIRETTA SSP,414,Altre alterazioni mieloproliferative e neoplasie poco differenziate senza CC,2017,1
+2,NON GESTIONE DIRETTA SSP,42,"Interventi sulle strutture intraoculari eccetto retina, iride e cristallino",2017,2
+2,NON GESTIONE DIRETTA SSP,420,"Febbre di origine sconosciuta, età > 17 anni senza CC",2017,1
+2,NON GESTIONE DIRETTA SSP,421,"Malattie di origine virale, età > 17 anni",2017,1
+2,NON GESTIONE DIRETTA SSP,423,Altre diagnosi relative a malattie infettive e parassitarie,2017,42
+2,NON GESTIONE DIRETTA SSP,425,Reazione acuta di adattamento e disfunzione psicosociale,2017,18
+2,NON GESTIONE DIRETTA SSP,426,Nevrosi depressive,2017,17
+2,NON GESTIONE DIRETTA SSP,428,Disturbi della personalità e del controllo degli impulsi,2017,4
+2,NON GESTIONE DIRETTA SSP,429,Disturbi organici e ritardo mentale,2017,52
+2,NON GESTIONE DIRETTA SSP,430,Psicosi,2017,28
+2,NON GESTIONE DIRETTA SSP,432,Altre diagnosi relative a disturbi mentali,2017,1
+2,NON GESTIONE DIRETTA SSP,433,Abuso o dipendenza da alcool/farmaci; dimesso contro il parere dei sanitari,2017,3
+2,NON GESTIONE DIRETTA SSP,440,Sbrigliamento di ferite per traumatismo,2017,4
+2,NON GESTIONE DIRETTA SSP,443,Altri interventi chirurgici per traumatismo senza CC,2017,51
+2,NON GESTIONE DIRETTA SSP,444,"Traumatismi, età > 17 anni con CC",2017,41
+2,NON GESTIONE DIRETTA SSP,445,"Traumatismi, età > 17 anni senza CC",2017,20
+2,NON GESTIONE DIRETTA SSP,449,"Avvelenamenti ed effetti tossici farmaci, età > 17 anni con CC",2017,1
+2,NON GESTIONE DIRETTA SSP,45,Malattie neurologiche dell'occhio,2017,1
+2,NON GESTIONE DIRETTA SSP,450,"Avvelenamenti ed effetti tossici dei farmaci, età > 17 anni senza CC",2017,3
+2,NON GESTIONE DIRETTA SSP,452,Complicazioni di trattamenti con CC,2017,5
+2,NON GESTIONE DIRETTA SSP,453,Complicazioni di trattamenti senza CC,2017,8
+2,NON GESTIONE DIRETTA SSP,454,"Altre diagnosi di traumatismi, avvelenamenti ed effetti tossici con CC",2017,1
+2,NON GESTIONE DIRETTA SSP,455,"Altre diagnosi di traumatismi, avvelenamenti ed effetti tossici senza CC",2017,2
+2,NON GESTIONE DIRETTA SSP,461,Intervento con diagnosi di altro contatto con i servizi sanitari,2017,1
+2,NON GESTIONE DIRETTA SSP,462,Riabilitazione,2017,59
+2,NON GESTIONE DIRETTA SSP,463,Segni e sintomi con CC,2017,21
+2,NON GESTIONE DIRETTA SSP,464,Segni e sintomi senza CC,2017,12
+2,NON GESTIONE DIRETTA SSP,466,Assistenza riabilitativa senza anamnesi di neoplasia maligna come diagnosi secondaria,2017,11
+2,NON GESTIONE DIRETTA SSP,467,Altri fattori che influenzano lo stato di salute,2017,114
+2,NON GESTIONE DIRETTA SSP,468,Intervento chirurgico esteso non correlato con la diagnosi principale,2017,2
+2,NON GESTIONE DIRETTA SSP,47,"Altre malattie dell'occhio, età > 17 anni senza CC",2017,6
+2,NON GESTIONE DIRETTA SSP,471,Interventi maggiori bilaterali o multipli sulle articolazioni degli arti inferiori,2017,7
+2,NON GESTIONE DIRETTA SSP,477,Intervento chirurgico non esteso non correlato con la diagnosi principale,2017,2
+2,NON GESTIONE DIRETTA SSP,487,Altri traumatismi multipli rilevanti,2017,3
+2,NON GESTIONE DIRETTA SSP,489,H.I.V. associato ad altre patologie maggiori correlate,2017,1
+2,NON GESTIONE DIRETTA SSP,49,Interventi maggiori sul capo e sul collo,2017,14
+2,NON GESTIONE DIRETTA SSP,490,H.I.V. associato o non ad altre patologie correlate,2017,1
+2,NON GESTIONE DIRETTA SSP,491,Interventi su articolazioni maggiori e reimpianti di arti superiori,2017,8
+2,NON GESTIONE DIRETTA SSP,493,Colecistectomia laparoscopica senza esplorazione del dotto biliare comune con CC,2017,3
+2,NON GESTIONE DIRETTA SSP,494,Colecistectomia laparoscopica senza esplorazione del dotto biliare comune senza CC,2017,67
+2,NON GESTIONE DIRETTA SSP,497,Artrodesi verterbale eccetto cervicale con CC,2017,1
+2,NON GESTIONE DIRETTA SSP,498,Artrodesi vertebrale eccetto cervicale senza CC,2017,40
+2,NON GESTIONE DIRETTA SSP,500,Interventi su dorso e collo eccetto per artrodesi vertebrale senza CC,2017,72
+2,NON GESTIONE DIRETTA SSP,503,Interventi sul ginocchio senza diagnosi principale di infezione,2017,337
+2,NON GESTIONE DIRETTA SSP,507,Ustioni estese a tutto spessore con innesto di cute o lesione da inalazione senza CC o trauma significativo,2017,3
+2,NON GESTIONE DIRETTA SSP,511,Ustioni non estese senza CC o trauma significativo,2017,1
+2,NON GESTIONE DIRETTA SSP,521,Abuso o dipendenza da alcool/farmaci con CC,2017,3
+2,NON GESTIONE DIRETTA SSP,522,Abuso o dipendenza da alcool/farmaci con terapia riabilitativa senza CC,2017,2
+2,NON GESTIONE DIRETTA SSP,523,Abuso o dipendenza da alcool/farmaci senza terapia riabilitativa senza CC,2017,10
+2,NON GESTIONE DIRETTA SSP,524,Ischemia cerebrale transitoria,2017,17
+2,NON GESTIONE DIRETTA SSP,53,"Interventi su seni e mastoide, età > 17 anni",2017,53
+2,NON GESTIONE DIRETTA SSP,532,Interventi sul midollo spinale senza CC,2017,118
+2,NON GESTIONE DIRETTA SSP,538,Escissione locale e rimozione di mezzi di fissazione interna eccetto anca e femore senza CC,2017,153
+2,NON GESTIONE DIRETTA SSP,54,"Interventi su seni e mastoide, età < 18 anni",2017,1
+2,NON GESTIONE DIRETTA SSP,544,Sostituzione di articolazioni maggiori o reimpianto degli arti inferiori,2017,626
+2,NON GESTIONE DIRETTA SSP,545,Revisione di sostituzione dell'anca o del ginocchio,2017,20
+2,NON GESTIONE DIRETTA SSP,546,Artrodesi verterbale eccetto cervicale con deviazione della colonna vertebrale o neoplasia maligna,2017,1
+2,NON GESTIONE DIRETTA SSP,55,"Miscellanea di interventi su orecchio, naso, bocca e gola",2017,67
+2,NON GESTIONE DIRETTA SSP,554,Altri interventi vascolari con CC senza diagnosi cardiovascolare maggiore,2017,2
+2,NON GESTIONE DIRETTA SSP,56,Rinoplastica,2017,1
+2,NON GESTIONE DIRETTA SSP,560,Infezioni batteriche e tubercolosi del sistema nervoso,2017,2
+2,NON GESTIONE DIRETTA SSP,561,Infezioni non batteriche del sistema nervoso eccetto meningite virale,2017,2
+2,NON GESTIONE DIRETTA SSP,562,"Convulsioni, età > 17 anni con CC",2017,2
+2,NON GESTIONE DIRETTA SSP,563,"Convulsioni, età > 17 anni senza CC",2017,2
+2,NON GESTIONE DIRETTA SSP,564,"Cefalea, età > 17 anni",2017,1
+2,NON GESTIONE DIRETTA SSP,568,"Interventi su esofago, stomaco e duodeno, età > 17 anni con CC senza diagnosi gastrointestinale maggiore",2017,3
+2,NON GESTIONE DIRETTA SSP,569,Interventi maggiori su intestino crasso e tenue con CC con diagnosi gastrointestinale maggiore,2017,6
+2,NON GESTIONE DIRETTA SSP,57,"Interventi su tonsille e adenoidi eccetto solo tonsillectomia e/o adenoidectomia, età >17 anni",2017,2
+2,NON GESTIONE DIRETTA SSP,570,Interventi maggiori su intestino crasso e tenue con CC senza diagnosi gastrointestinale maggiore,2017,4
+2,NON GESTIONE DIRETTA SSP,572,Malattie gastrointestinali maggiori e infezioni peritoneali,2017,20
+2,NON GESTIONE DIRETTA SSP,573,Interventi maggiori sulla vescica,2017,1
+2,NON GESTIONE DIRETTA SSP,574,Diagnosi ematologiche/immunologiche maggiori eccetto anemia falciforme e coagulopatie,2017,2
+2,NON GESTIONE DIRETTA SSP,576,"Setticemia senza ventilazione meccanica  = 96 ore, età > 17 anni",2017,45
+2,NON GESTIONE DIRETTA SSP,6,Decompressione del tunnel carpale,2017,70
+2,NON GESTIONE DIRETTA SSP,60,"Tonsillectomia e/o adenoidectomia, età < 18 anni",2017,6
+2,NON GESTIONE DIRETTA SSP,63,"Altri interventi su orecchio, naso, bocca e gola",2017,2
+2,NON GESTIONE DIRETTA SSP,64,"Neoplasie maligne di orecchio, naso, bocca e gola",2017,2
+2,NON GESTIONE DIRETTA SSP,65,Alterazioni dell'equilibrio,2017,6
+2,NON GESTIONE DIRETTA SSP,66,Epistassi,2017,1
+2,NON GESTIONE DIRETTA SSP,69,"Otite media e infezioni alte vie respiratorie, età > 17 anni senza CC",2017,6
+2,NON GESTIONE DIRETTA SSP,71,Laringotracheite,2017,1
+2,NON GESTIONE DIRETTA SSP,73,"Altre diagnosi relative a orecchio, naso, bocca e gola, età > 17 anni",2017,9
+2,NON GESTIONE DIRETTA SSP,74,"Altre diagnosi relative a orecchio, naso, bocca e gola, età < 18 anni",2017,1
+2,NON GESTIONE DIRETTA SSP,76,Altri interventi sull'apparato respiratorio con CC,2017,1
+2,NON GESTIONE DIRETTA SSP,78,Embolia polmonare,2017,10
+2,NON GESTIONE DIRETTA SSP,79,"Infezioni e infiammazioni respiratorie, età > 17 anni con CC",2017,14
+2,NON GESTIONE DIRETTA SSP,8,Interventi su nervi periferici e cranici e altri interventi su sistema nervoso senza CC,2017,44
+2,NON GESTIONE DIRETTA SSP,80,"Infezioni e infiammazioni respiratorie, età > 17 anni senza CC",2017,5
+2,NON GESTIONE DIRETTA SSP,82,Neoplasie dell'apparato respiratorio,2017,24
+2,NON GESTIONE DIRETTA SSP,83,Traumi maggiori del torace con CC,2017,6
+2,NON GESTIONE DIRETTA SSP,84,Traumi maggiori del torace senza CC,2017,3
+2,NON GESTIONE DIRETTA SSP,85,Versamento pleurico con CC,2017,8
+2,NON GESTIONE DIRETTA SSP,86,Versamento pleurico senza CC,2017,2
+2,NON GESTIONE DIRETTA SSP,87,Edema polmonare e insufficienza respiratoria,2017,55
+2,NON GESTIONE DIRETTA SSP,88,Malattia polmonare cronica ostruttiva,2017,53
+2,NON GESTIONE DIRETTA SSP,89,"Polmonite semplice e pleurite, età > 17 anni con CC",2017,77
+2,NON GESTIONE DIRETTA SSP,9,Malattie e traumatismi del midollo spinale,2017,27
+2,NON GESTIONE DIRETTA SSP,90,"Polmonite semplice e pleurite, età > 17 anni senza CC",2017,43
+2,NON GESTIONE DIRETTA SSP,92,Malattia polmonare interstiziale con CC,2017,6
+2,NON GESTIONE DIRETTA SSP,93,Malattia polmonare interstiziale senza CC,2017,2
+2,NON GESTIONE DIRETTA SSP,94,Pneumotorace con CC,2017,3
+2,NON GESTIONE DIRETTA SSP,96,"Bronchite e asma, età > 17 anni con CC",2017,12
+2,NON GESTIONE DIRETTA SSP,97,"Bronchite e asma, età > 17 anni senza CC",2017,25
+2,NON GESTIONE DIRETTA SSP,99,Segni e sintomi respiratori con CC,2017,6
