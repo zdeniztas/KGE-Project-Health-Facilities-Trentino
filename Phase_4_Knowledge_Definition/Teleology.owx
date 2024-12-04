@@ -1,0 +1,1309 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18">
+    <Prefix name="" IRI="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Capacity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DRG_HOSPITAL_ADMISSIONS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Encounter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HEALTH_FACILITIES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthcareService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PARAPHARMACIES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHARMACY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#REHABILITATION_FACILITIES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RESIDENTIAL_CARE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEMI_RESIDENTIAL_CARE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SPECIALIST_SERVICES_PRIVATE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SPECIALIST_SERVICES_PUBLIC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service_Type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEncounter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNumberOfPlaces"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProvidedby"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#offersService"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ANNO"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ASSISTENZA"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CAP"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#COD_DRG"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#COD_PRESTAZIONE"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#COD_STRUTTURA"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#COD_TIPO_ASSISTENZA"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#COD_TIPO_RAPPORTO"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#COMUNE"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CareDays-KGE24-3-0010"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DATA_INIZIO"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Frazione-KGE24-3-0018"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Hospital_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#INDIRIZZO"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LATITUDINE"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LONGITUDINE"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NUM_AMMISSIONI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NUM_DIMISSIONI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NUM_GIORNATE"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NUM_UTENTI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ParapharmacyName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Pharmacy_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Province"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Region"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#StructureName-KGE24-3-0002"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TIPO_OSPEDALE"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TIPO_RAPPORTO"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TIPO_STRUTTURA"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasOperatingHours"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasServiceCount"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ospedale_di_Trento"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#DRG_HOSPITAL_ADMISSIONS"/>
+        <Class IRI="#Encounter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DRG_HOSPITAL_ADMISSIONS"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#COD_DRG"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DRG_HOSPITAL_ADMISSIONS"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#TIPO_RAPPORTO"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Encounter"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#COD_TIPO_RAPPORTO"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Encounter"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#TIPO_RAPPORTO"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HEALTH_FACILITIES"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HEALTH_FACILITIES"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#ASSISTENZA"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HEALTH_FACILITIES"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#COD_STRUTTURA"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HEALTH_FACILITIES"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#NUM_AMMISSIONI"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HEALTH_FACILITIES"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#NUM_DIMISSIONI"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HEALTH_FACILITIES"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#NUM_GIORNATE"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HEALTH_FACILITIES"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#NUM_UTENTI"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HEALTH_FACILITIES"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#TIPO_STRUTTURA"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthcareService"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#ASSISTENZA"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthcareService"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#ANNO"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthcareService"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#CareDays-KGE24-3-0010"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthcareService"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#COD_STRUTTURA"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthcareService"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#COD_TIPO_ASSISTENZA"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthcareService"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#DATA_INIZIO"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthcareService"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#hasOperatingHours"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthcareService"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#StructureName-KGE24-3-0002"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#CAP"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#COMUNE"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Frazione-KGE24-3-0018"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#INDIRIZZO"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Province"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Region"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#LATITUDINE"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#LONGITUDINE"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#CareDays-KGE24-3-0010"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#ANNO"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#COD_STRUTTURA"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#COD_TIPO_ASSISTENZA"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#DATA_INIZIO"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#hasOperatingHours"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#hasServiceCount"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#StructureName-KGE24-3-0002"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PARAPHARMACIES"/>
+        <Class IRI="#HealthcareService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PARAPHARMACIES"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#COD_STRUTTURA"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PARAPHARMACIES"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#ParapharmacyName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHARMACY"/>
+        <Class IRI="#HealthcareService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHARMACY"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#COD_STRUTTURA"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHARMACY"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#DATA_INIZIO"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHARMACY"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Pharmacy_Name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHARMACY"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#TIPO_RAPPORTO"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#REHABILITATION_FACILITIES"/>
+        <Class IRI="#HealthcareService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#REHABILITATION_FACILITIES"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#COD_STRUTTURA"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RESIDENTIAL_CARE"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RESIDENTIAL_CARE"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#COD_STRUTTURA"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RESIDENTIAL_CARE"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#NUM_AMMISSIONI"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RESIDENTIAL_CARE"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#NUM_DIMISSIONI"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RESIDENTIAL_CARE"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#NUM_GIORNATE"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RESIDENTIAL_CARE"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#NUM_UTENTI"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RESIDENTIAL_CARE"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#TIPO_STRUTTURA"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEMI_RESIDENTIAL_CARE"/>
+        <Class IRI="#RESIDENTIAL_CARE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEMI_RESIDENTIAL_CARE"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#ASSISTENZA"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEMI_RESIDENTIAL_CARE"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#NUM_UTENTI"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEMI_RESIDENTIAL_CARE"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#NUM_AMMISSIONI"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEMI_RESIDENTIAL_CARE"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#NUM_DIMISSIONI"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEMI_RESIDENTIAL_CARE"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#TIPO_STRUTTURA"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SPECIALIST_SERVICES_PRIVATE"/>
+        <Class IRI="#Encounter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SPECIALIST_SERVICES_PRIVATE"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#COD_PRESTAZIONE"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SPECIALIST_SERVICES_PUBLIC"/>
+        <Class IRI="#Encounter"/>
+    </SubClassOf>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#COD_STRUTTURA"/>
+        <NamedIndividual IRI="#Ospedale_di_Trento"/>
+        <Literal>AAA</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEncounter"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#Encounter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#HealthcareService"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNumberOfPlaces"/>
+        <Class IRI="#HEALTH_FACILITIES"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNumberOfPlaces"/>
+        <Class IRI="#HealthcareService"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isProvidedby"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#offersService"/>
+        <Class IRI="#HealthcareService"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#offersService"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEncounter"/>
+        <Class IRI="#PARAPHARMACIES"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEncounter"/>
+        <Class IRI="#SPECIALIST_SERVICES_PRIVATE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEncounter"/>
+        <Class IRI="#SPECIALIST_SERVICES_PUBLIC"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNumberOfPlaces"/>
+        <Class IRI="#Capacity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isProvidedby"/>
+        <Class IRI="#HealthcareService"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#offersService"/>
+        <Class IRI="#PARAPHARMACIES"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#offersService"/>
+        <Class IRI="#SEMI_RESIDENTIAL_CARE"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ANNO"/>
+        <Class IRI="#HealthcareService"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ANNO"/>
+        <Class IRI="#Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ASSISTENZA"/>
+        <Class IRI="#HEALTH_FACILITIES"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ASSISTENZA"/>
+        <Class IRI="#RESIDENTIAL_CARE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ASSISTENZA"/>
+        <Class IRI="#SEMI_RESIDENTIAL_CARE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CAP"/>
+        <Class IRI="#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#COD_DRG"/>
+        <Class IRI="#DRG_HOSPITAL_ADMISSIONS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#COD_PRESTAZIONE"/>
+        <Class IRI="#SPECIALIST_SERVICES_PRIVATE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#COD_PRESTAZIONE"/>
+        <Class IRI="#SPECIALIST_SERVICES_PUBLIC"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#COD_STRUTTURA"/>
+        <Class IRI="#HealthcareService"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#COD_STRUTTURA"/>
+        <Class IRI="#Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#COD_TIPO_ASSISTENZA"/>
+        <Class IRI="#HealthcareService"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#COD_TIPO_ASSISTENZA"/>
+        <Class IRI="#Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#COD_TIPO_RAPPORTO"/>
+        <Class IRI="#Encounter"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#COMUNE"/>
+        <Class IRI="#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DATA_INIZIO"/>
+        <Class IRI="#PHARMACY"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#INDIRIZZO"/>
+        <Class IRI="#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#LATITUDINE"/>
+        <Class IRI="#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#LONGITUDINE"/>
+        <Class IRI="#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NUM_AMMISSIONI"/>
+        <Class IRI="#HEALTH_FACILITIES"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NUM_AMMISSIONI"/>
+        <Class IRI="#RESIDENTIAL_CARE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NUM_AMMISSIONI"/>
+        <Class IRI="#SEMI_RESIDENTIAL_CARE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NUM_DIMISSIONI"/>
+        <Class IRI="#HEALTH_FACILITIES"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NUM_DIMISSIONI"/>
+        <Class IRI="#RESIDENTIAL_CARE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NUM_DIMISSIONI"/>
+        <Class IRI="#SEMI_RESIDENTIAL_CARE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NUM_GIORNATE"/>
+        <Class IRI="#HEALTH_FACILITIES"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NUM_UTENTI"/>
+        <Class IRI="#RESIDENTIAL_CARE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NUM_UTENTI"/>
+        <Class IRI="#SEMI_RESIDENTIAL_CARE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TIPO_RAPPORTO"/>
+        <Class IRI="#DRG_HOSPITAL_ADMISSIONS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TIPO_RAPPORTO"/>
+        <Class IRI="#PARAPHARMACIES"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TIPO_RAPPORTO"/>
+        <Class IRI="#SPECIALIST_SERVICES_PRIVATE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TIPO_RAPPORTO"/>
+        <Class IRI="#SPECIALIST_SERVICES_PUBLIC"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TIPO_STRUTTURA"/>
+        <Class IRI="#HEALTH_FACILITIES"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TIPO_STRUTTURA"/>
+        <Class IRI="#RESIDENTIAL_CARE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TIPO_STRUTTURA"/>
+        <Class IRI="#SEMI_RESIDENTIAL_CARE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasOperatingHours"/>
+        <Class IRI="#Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasServiceCount"/>
+        <Class IRI="#Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ANNO"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ASSISTENZA"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CAP"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#COD_DRG"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#COD_PRESTAZIONE"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#COD_STRUTTURA"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#COD_TIPO_ASSISTENZA"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#COD_TIPO_RAPPORTO"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#COMUNE"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DATA_INIZIO"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#INDIRIZZO"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#LATITUDINE"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#LONGITUDINE"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#NUM_AMMISSIONI"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#NUM_DIMISSIONI"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#NUM_GIORNATE"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#NUM_UTENTI"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#TIPO_OSPEDALE"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#TIPO_RAPPORTO"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#TIPO_STRUTTURA"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasOperatingHours"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasServiceCount"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ANNO</IRI>
+        <Literal>The year for which the data is reported.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ANNO</IRI>
+        <Literal>Year-KGE24-3-0006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ASSISTENZA</IRI>
+        <Literal>Type of assistance or care provided by the facility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ASSISTENZA</IRI>
+        <Literal>Assistance-KGE24-3-0003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CAP</IRI>
+        <Literal>Postal code of the facility’s location.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CAP</IRI>
+        <Literal>CAP-KGE24-3-0017</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#COD_DRG</IRI>
+        <Literal>Diagnosis-related group code for hospital admissions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#COD_DRG</IRI>
+        <Literal>DRG-KGE24-3-0023</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#COD_PRESTAZIONE</IRI>
+        <Literal>cod_service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#COD_STRUTTURA</IRI>
+        <Literal>Unique identifier for a healthcare or care facility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#COD_STRUTTURA</IRI>
+        <Literal>Structure ID-KGE24-3-0001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#COD_TIPO_ASSISTENZA</IRI>
+        <Literal>cod_assistance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#COD_TIPO_RAPPORTO</IRI>
+        <Literal>cod_relationship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#COMUNE</IRI>
+        <Literal>Municipality where the facility is located.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#COMUNE</IRI>
+        <Literal>Municipality-KGE24-3-0013</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Capacity</IRI>
+        <Literal>The number of beds, units, or stock availability in facilities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Capacity</IRI>
+        <Literal>Capacity-KGE24-3-0033</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CareDays-KGE24-3-0010</IRI>
+        <Literal>Total number of days assistance was provided.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CareDays-KGE24-3-0010</IRI>
+        <Literal>CareDays-KGE24-3-0010</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DATA_INIZIO</IRI>
+        <Literal>Date the facility began operations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DATA_INIZIO</IRI>
+        <Literal>StartDate-KGE24-3-0021</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DRG_HOSPITAL_ADMISSIONS</IRI>
+        <Literal>The process of accepting a patient for medical care within a hospital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DRG_HOSPITAL_ADMISSIONS</IRI>
+        <Literal>HospitalAdmission-KGE24-3-0037</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Encounter</IRI>
+        <Literal>An interaction between healthcare provider(s), and/or patient(s) for the purpose of providing healthcare service(s) or assessing the health status of patient(s).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Encounter</IRI>
+        <Literal>Encounter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Frazione-KGE24-3-0018</IRI>
+        <Literal>Subdivision or locality where the facility is situated.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HEALTH_FACILITIES</IRI>
+        <Literal>A facility providing healthcare services such as hospitals or pharmacies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HEALTH_FACILITIES</IRI>
+        <Literal>HealthFacility-KGE24-3-0030</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HealthcareService</IRI>
+        <Literal>The details of a healthcare service available at a location or in a catalog.  In the case where there is a hierarchy of services (for example, Lab -&gt; Pathology -&gt; Wound Cultures), this can be represented using a set of linked HealthcareServices.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HealthcareService</IRI>
+        <Literal>HealthcareService</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hospital_Name</IRI>
+        <Literal>Name of the hospital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hospital_Name</IRI>
+        <Literal>HospitalName-KGE24-3-0026</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#INDIRIZZO</IRI>
+        <Literal>Physical address of the facility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#INDIRIZZO</IRI>
+        <Literal>Address-KGE24-3-0016</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LATITUDINE</IRI>
+        <Literal>Geographic latitude of the facility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LATITUDINE</IRI>
+        <Literal>Latitude-KGE24-3-0014</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LONGITUDINE</IRI>
+        <Literal>Geographic longitude of the facility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LONGITUDINE</IRI>
+        <Literal>Longitude-KGE24-3-0015</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Location</IRI>
+        <Literal>Details and position information for a place where services are provided and resources and participants may be stored, found, contained, or accommodated.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Location</IRI>
+        <Literal>Location-KGE24-3-0032</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NUM_AMMISSIONI</IRI>
+        <Literal>Total number of admissions to the facility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NUM_AMMISSIONI</IRI>
+        <Literal>NumberofAdmissions-KGE24-3-0011</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NUM_DIMISSIONI</IRI>
+        <Literal>Total number of discharges from the facility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NUM_DIMISSIONI</IRI>
+        <Literal>NumberofDischarges-KGE24-3-0012</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NUM_GIORNATE</IRI>
+        <Literal>Number of operational days for the facility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NUM_GIORNATE</IRI>
+        <Literal>NumberofDays-KGE24-3-0009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NUM_UTENTI</IRI>
+        <Literal>Total number of users benefiting from the services.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NUM_UTENTI</IRI>
+        <Literal>NumberofUsers-KGE24-3-0007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Organization</IRI>
+        <Literal>A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action.  Includes companies, institutions, corporations, departments, community groups, healthcare practice groups, payer/insurer, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Organization</IRI>
+        <Literal>Organization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PARAPHARMACIES</IRI>
+        <Literal>A retail store offering over-the-counter medicines and health products.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PARAPHARMACIES</IRI>
+        <Literal>Parapharmacy-KGE24-3-0027</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PHARMACY</IRI>
+        <Literal>A healthcare facility where prescription drugs are dispensed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PHARMACY</IRI>
+        <Literal>Pharmacy-KGE24-3-0028</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ParapharmacyName</IRI>
+        <Literal>Name of the parapharmacy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ParapharmacyName</IRI>
+        <Literal>ParapharmacyName-KGE24-3-0024</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pharmacy_Name</IRI>
+        <Literal>Name of the pharmacy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pharmacy_Name</IRI>
+        <Literal>PharmacyName-KGE24-3-0025</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Province</IRI>
+        <Literal>Province where the facility is located.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Province</IRI>
+        <Literal>Province-KGE24-3-0019</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#REHABILITATION_FACILITIES</IRI>
+        <Literal>A facility providing specialized rehabilitation services for patients.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#REHABILITATION_FACILITIES</IRI>
+        <Literal>RehabilitationFacilities-KGE24-3-0041</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RESIDENTIAL_CARE</IRI>
+        <Literal>A long-term care service providing housing and support for individuals needing daily assistance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RESIDENTIAL_CARE</IRI>
+        <Literal>ResidentialCare-KGE24-3-0035</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Region</IRI>
+        <Literal>Region where the facility is located.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Region</IRI>
+        <Literal>Region-KGE24-3-0020</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SEMI_RESIDENTIAL_CARE</IRI>
+        <Literal>A care service offering day-time support while allowing individuals to return home overnight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SEMI_RESIDENTIAL_CARE</IRI>
+        <Literal>Semi-residentialCare-KGE24-3-0036</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SPECIALIST_SERVICES_PRIVATE</IRI>
+        <Literal>PrivateSpecialistService-KGE24-3-0038</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SPECIALIST_SERVICES_PUBLIC</IRI>
+        <Literal>Specialized medical services provided by public healthcare institutions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SPECIALIST_SERVICES_PUBLIC</IRI>
+        <Literal>PublicSpecialistService-KGE24-3-0039</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Service_Type</IRI>
+        <Literal>Types of services offered at health facilities, e.g., ICU, memory care.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Service_Type</IRI>
+        <Literal>ServiceType-KGE24-3-0031</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StructureName-KGE24-3-0002</IRI>
+        <Literal>Name of the healthcare or care facility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TIPO_OSPEDALE</IRI>
+        <Literal>Specific category or typology of the facility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TIPO_OSPEDALE</IRI>
+        <Literal>Typology-KGE24-3-0022</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TIPO_RAPPORTO</IRI>
+        <Literal>Type of relationship between the facility and the managing authority.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TIPO_RAPPORTO</IRI>
+        <Literal>RelationshipType-KGE24-3-0004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TIPO_STRUTTURA</IRI>
+        <Literal>Type of facility, such as semi-residential or residential care.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TIPO_STRUTTURA</IRI>
+        <Literal>FacilityType-KGE24-3-0005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasOperatingHours</IRI>
+        <Literal>Operational hours and open/closed status of facilities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasOperatingHours</IRI>
+        <Literal>Availability-KGE24-3-0034</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
