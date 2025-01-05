@@ -1,0 +1,992 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-67#"
+     xml:base="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-67"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-18="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-67"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#hasEncounter -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#hasEncounter">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Organization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#PARAPHARMACIES"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SPECIALIST_SERVICES_PRIVATE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SPECIALIST_SERVICES_PUBLIC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#hasLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Encounter"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HealthcareService"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Organization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#hasNumberOfPlaces -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#hasNumberOfPlaces">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HEALTH_FACILITIES"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HealthcareService"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Capacity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#isProvidedby -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#isProvidedby">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Organization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HealthcareService"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#offersService -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#offersService">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HealthcareService"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Organization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#PARAPHARMACIES"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SEMI_RESIDENTIAL_CARE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#ANNO -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#ANNO">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#DRG_HOSPITAL_ADMISSIONS"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Encounter"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HealthcareService"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>The year for which the data is reported.</rdfs:comment>
+        <rdfs:label>Year-KGE24-3-0006</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#ASSISTENZA -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#ASSISTENZA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HEALTH_FACILITIES"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#RESIDENTIAL_CARE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SEMI_RESIDENTIAL_CARE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-67#Hospital"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Type of assistance or care provided by the facility.</rdfs:comment>
+        <rdfs:label>Assistance-KGE24-3-0003</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#CAP -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#CAP">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>Postal code of the facility’s location.</rdfs:comment>
+        <rdfs:label>CAP-KGE24-3-0017</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_DRG -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_DRG">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#DRG_HOSPITAL_ADMISSIONS"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Diagnosis-related group code for hospital admissions.</rdfs:comment>
+        <rdfs:label>DRG-KGE24-3-0023</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_PRESTAZIONE -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_PRESTAZIONE">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SPECIALIST_SERVICES_PRIVATE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SPECIALIST_SERVICES_PUBLIC"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cod_service</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_STRUTTURA -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_STRUTTURA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HealthcareService"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Unique identifier for a healthcare or care facility.</rdfs:comment>
+        <rdfs:label>Structure ID-KGE24-3-0001</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_TIPO_ASSISTENZA -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_TIPO_ASSISTENZA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HealthcareService"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cod_assistance</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_TIPO_RAPPORTO -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_TIPO_RAPPORTO">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Encounter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>cod_relationship</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COMUNE -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COMUNE">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Municipality where the facility is located.</rdfs:comment>
+        <rdfs:label>Municipality-KGE24-3-0013</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#CareDays-KGE24-3-0010 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#CareDays-KGE24-3-0010">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HEALTH_FACILITIES"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>Total number of days assistance was provided.</rdfs:comment>
+        <rdfs:label>CareDays-KGE24-3-0010</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#DATA_INIZIO -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#DATA_INIZIO">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#PARAPHARMACIES"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#PHARMACY"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:comment>Date the facility began operations.</rdfs:comment>
+        <rdfs:label>StartDate-KGE24-3-0021</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Frazione-KGE24-3-0018 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Frazione-KGE24-3-0018">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Subdivision or locality where the facility is situated.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Hospital_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Hospital_Name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-67#Hospital"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Name of the hospital.</rdfs:comment>
+        <rdfs:label>HospitalName-KGE24-3-0026</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#INDIRIZZO -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#INDIRIZZO">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Physical address of the facility.</rdfs:comment>
+        <rdfs:label>Address-KGE24-3-0016</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#LATITUDINE -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#LATITUDINE">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>Geographic latitude of the facility.</rdfs:comment>
+        <rdfs:label>Latitude-KGE24-3-0014</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#LONGITUDINE -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#LONGITUDINE">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>Geographic longitude of the facility.</rdfs:comment>
+        <rdfs:label>Longitude-KGE24-3-0015</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#NUM_AMMISSIONI -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#NUM_AMMISSIONI">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HEALTH_FACILITIES"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#RESIDENTIAL_CARE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SEMI_RESIDENTIAL_CARE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>Total number of admissions to the facility.</rdfs:comment>
+        <rdfs:label>NumberofAdmissions-KGE24-3-0011</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#NUM_DIMISSIONI -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#NUM_DIMISSIONI">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HEALTH_FACILITIES"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#RESIDENTIAL_CARE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SEMI_RESIDENTIAL_CARE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>Total number of discharges from the facility.</rdfs:comment>
+        <rdfs:label>NumberofDischarges-KGE24-3-0012</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#NUM_GIORNATE -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#NUM_GIORNATE">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HEALTH_FACILITIES"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#RESIDENTIAL_CARE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SEMI_RESIDENTIAL_CARE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>Number of operational days for the facility.</rdfs:comment>
+        <rdfs:label>NumberofDays-KGE24-3-0009</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#NUM_UTENTI -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#NUM_UTENTI">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#RESIDENTIAL_CARE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SEMI_RESIDENTIAL_CARE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>Total number of users benefiting from the services.</rdfs:comment>
+        <rdfs:label>NumberofUsers-KGE24-3-0007</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#ParapharmacyName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#ParapharmacyName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#PARAPHARMACIES"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Name of the parapharmacy.</rdfs:comment>
+        <rdfs:label>ParapharmacyName-KGE24-3-0024</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Pharmacy_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Pharmacy_Name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#PHARMACY"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Name of the pharmacy.</rdfs:comment>
+        <rdfs:label>PharmacyName-KGE24-3-0025</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Province -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Province">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Province where the facility is located.</rdfs:comment>
+        <rdfs:label>Province-KGE24-3-0019</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Region -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Region">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Region where the facility is located.</rdfs:comment>
+        <rdfs:label>Region-KGE24-3-0020</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#TIPO_OSPEDALE -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#TIPO_OSPEDALE">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HEALTH_FACILITIES"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HealthcareService"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Specific category or typology of the facility.</rdfs:comment>
+        <rdfs:label>Typology-KGE24-3-0022</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#TIPO_RAPPORTO -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#TIPO_RAPPORTO">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#DRG_HOSPITAL_ADMISSIONS"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HEALTH_FACILITIES"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#PARAPHARMACIES"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SPECIALIST_SERVICES_PRIVATE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SPECIALIST_SERVICES_PUBLIC"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Type of relationship between the facility and the managing authority.</rdfs:comment>
+        <rdfs:label>RelationshipType-KGE24-3-0004</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#TIPO_STRUTTURA -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#TIPO_STRUTTURA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HEALTH_FACILITIES"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#RESIDENTIAL_CARE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SEMI_RESIDENTIAL_CARE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Type of facility, such as semi-residential or residential care.</rdfs:comment>
+        <rdfs:label>FacilityType-KGE24-3-0005</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#hasOperatingHours -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#hasOperatingHours">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>Operational hours and open/closed status of facilities.</rdfs:comment>
+        <rdfs:label>Availability-KGE24-3-0034</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#hasServiceCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#hasServiceCount">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Organization"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SPECIALIST_SERVICES_PRIVATE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SPECIALIST_SERVICES_PUBLIC"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-67#NumberofPlaces-KGE24-3-0008 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-67#NumberofPlaces-KGE24-3-0008">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#RESIDENTIAL_CARE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SEMI_RESIDENTIAL_CARE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-67#StructureName-KGE24-3-0002 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-67#StructureName-KGE24-3-0002">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HEALTH_FACILITIES"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Capacity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Capacity">
+        <rdfs:comment>The number of beds, units, or stock availability in facilities.</rdfs:comment>
+        <rdfs:label>Capacity-KGE24-3-0033</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#DRG_HOSPITAL_ADMISSIONS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#DRG_HOSPITAL_ADMISSIONS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Encounter"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_DRG"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#TIPO_RAPPORTO"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The process of accepting a patient for medical care within a hospital.</rdfs:comment>
+        <rdfs:label>HospitalAdmission-KGE24-3-0037</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Encounter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Encounter">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_TIPO_RAPPORTO"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#TIPO_RAPPORTO"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>An interaction between healthcare provider(s), and/or patient(s) for the purpose of providing healthcare service(s) or assessing the health status of patient(s).</rdfs:comment>
+        <rdfs:label>Encounter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HEALTH_FACILITIES -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HEALTH_FACILITIES">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Organization"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#ASSISTENZA"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_STRUTTURA"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#NUM_AMMISSIONI"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#NUM_DIMISSIONI"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#NUM_GIORNATE"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#NUM_UTENTI"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#TIPO_STRUTTURA"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A facility providing healthcare services such as hospitals or pharmacies.</rdfs:comment>
+        <rdfs:label>HealthFacility-KGE24-3-0030</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HealthcareService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HealthcareService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HEALTH_FACILITIES"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#ASSISTENZA"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#ANNO"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#CareDays-KGE24-3-0010"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_STRUTTURA"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_TIPO_ASSISTENZA"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#DATA_INIZIO"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#hasOperatingHours"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The details of a healthcare service available at a location or in a catalog.  In the case where there is a hierarchy of services (for example, Lab -&gt; Pathology -&gt; Wound Cultures), this can be represented using a set of linked HealthcareServices.</rdfs:comment>
+        <rdfs:label>HealthcareService</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Location">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#CAP"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COMUNE"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Frazione-KGE24-3-0018"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#INDIRIZZO"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Province"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Region"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#LATITUDINE"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#LONGITUDINE"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Details and position information for a place where services are provided and resources and participants may be stored, found, contained, or accommodated.</rdfs:comment>
+        <rdfs:label>Location-KGE24-3-0032</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Organization">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#CareDays-KGE24-3-0010"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#ANNO"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_STRUTTURA"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_TIPO_ASSISTENZA"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#DATA_INIZIO"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#hasOperatingHours"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#hasServiceCount"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action.  Includes companies, institutions, corporations, departments, community groups, healthcare practice groups, payer/insurer, etc.</rdfs:comment>
+        <rdfs:label>Organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#PARAPHARMACIES -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#PARAPHARMACIES">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HealthcareService"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_STRUTTURA"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#ParapharmacyName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A retail store offering over-the-counter medicines and health products.</rdfs:comment>
+        <rdfs:label>Parapharmacy-KGE24-3-0027</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#PHARMACY -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#PHARMACY">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HealthcareService"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_STRUTTURA"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#DATA_INIZIO"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Pharmacy_Name"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#TIPO_RAPPORTO"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A healthcare facility where prescription drugs are dispensed.</rdfs:comment>
+        <rdfs:label>Pharmacy-KGE24-3-0028</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#REHABILITATION_FACILITIES -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#REHABILITATION_FACILITIES">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HealthcareService"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_STRUTTURA"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A facility providing specialized rehabilitation services for patients.</rdfs:comment>
+        <rdfs:label>RehabilitationFacilities-KGE24-3-0041</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#RESIDENTIAL_CARE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#RESIDENTIAL_CARE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HEALTH_FACILITIES"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_STRUTTURA"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#NUM_AMMISSIONI"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#NUM_DIMISSIONI"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#NUM_GIORNATE"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#NUM_UTENTI"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#TIPO_STRUTTURA"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A long-term care service providing housing and support for individuals needing daily assistance.</rdfs:comment>
+        <rdfs:label>ResidentialCare-KGE24-3-0035</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SEMI_RESIDENTIAL_CARE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SEMI_RESIDENTIAL_CARE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#RESIDENTIAL_CARE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#ASSISTENZA"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#NUM_UTENTI"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#NUM_AMMISSIONI"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#NUM_DIMISSIONI"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#TIPO_STRUTTURA"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A care service offering day-time support while allowing individuals to return home overnight.</rdfs:comment>
+        <rdfs:label>Semi-residentialCare-KGE24-3-0036</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SPECIALIST_SERVICES_PRIVATE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SPECIALIST_SERVICES_PRIVATE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Encounter"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#COD_PRESTAZIONE"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>PrivateSpecialistService-KGE24-3-0038</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SPECIALIST_SERVICES_PUBLIC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#SPECIALIST_SERVICES_PUBLIC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Encounter"/>
+        <rdfs:comment>Specialized medical services provided by public healthcare institutions.</rdfs:comment>
+        <rdfs:label>PublicSpecialistService-KGE24-3-0039</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Service_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Service_Type">
+        <rdfs:comment>Types of services offered at health facilities, e.g., ICU, memory care.</rdfs:comment>
+        <rdfs:label>ServiceType-KGE24-3-0031</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-67#Hospital -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-67#Hospital">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#HEALTH_FACILITIES"/>
+        <rdfs:comment>A healthcare institution providing patient treatment with specialized medical staff and equipment.</rdfs:comment>
+        <rdfs:label>Hospital-KGE24-3-0029</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Ospedale_di_Trento -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#Ospedale_di_Trento">
+        <untitled-ontology-18:COD_STRUTTURA>AAA</untitled-ontology-18:COD_STRUTTURA>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
