@@ -1,0 +1,9 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ont: <http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#>
+
+SELECT ?hospital ?hospitalName ?service
+WHERE {
+  ?hospital rdf:type ont:HEALTH_FACILITIES ;
+            ont:Hospital_Name ?hospitalName ;
+            ont:ASSISTENZA ?service .
+}

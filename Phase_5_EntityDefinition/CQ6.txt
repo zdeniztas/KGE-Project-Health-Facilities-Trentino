@@ -1,0 +1,14 @@
+PREFIX ex: <http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#>
+
+SELECT ?facility ?service ?comune
+WHERE {
+  ?facility a ex:HEALTH_FACILITIES ;
+            ex:ASSISTENZA ?service ;
+            ex:hasLocation ?location .
+  OPTIONAL { ?location ex:COMUNE ?comune . }
+
+  FILTER(CONTAINS(STR(REPLACE(?service, "\\s+", " ")), "PSICHIATRICA"))
+  FILTER(STR(REPLACE(?comune, "\\s+", " ")) = "TRENTO")
+
+}
+LIMIT 50

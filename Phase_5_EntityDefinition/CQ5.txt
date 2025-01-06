@@ -1,0 +1,16 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex: <http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#>
+
+SELECT DISTINCT ?facility ?service ?lat ?long
+WHERE {
+  ?facility a ex:HEALTH_FACILITIES ;
+            ex:ASSISTENZA ?service ;
+            ex:hasLocation ?location .
+             #ex:OpeningTime "24/7" .
+  ?location ex:LATITUDINE ?lat ;
+            ex:LONGITUDINE ?long .
+
+  FILTER (xsd:decimal(?lat) >= 46.1878 && xsd:decimal(?lat) <= 46.3878)  # Range di latitudine ± 0.1 gradi (circa 10 km)
+  FILTER (xsd:decimal(?long) >= 11.3551 && xsd:decimal(?long) <= 11.5551)  # Range di longitudine ± 0.1 gradi (circa 10 km)
+}
+LIMIT 50

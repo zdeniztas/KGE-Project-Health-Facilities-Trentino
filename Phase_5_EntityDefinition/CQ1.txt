@@ -1,0 +1,10 @@
+PREFIX ont: <http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-18#>
+PREFIX ns67: <http://www.semanticweb.org/pecco/ontologies/2024/11/untitled-ontology-67#>
+
+SELECT DISTINCT ?facility ?name ?beds
+WHERE {
+  ?facility a ont:RESIDENTIAL_CARE ;
+            ns67:NumberofPlaces-KGE24-3-0008 ?beds ;
+            ns67:StructureName-KGE24-3-0002 ?name .
+    # FILTER(?residentialCareName = "NOME_AREA_SPECIFICA")
+}
