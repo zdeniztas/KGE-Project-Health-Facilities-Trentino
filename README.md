@@ -15,7 +15,8 @@
   - Lydia Assefa Bekele  
   - Cecilia Peccolo  
 - **© 2023 University of Trento**  
-- **Location**: Trento, Italy  
+- **Location**: Trento, Italy
+- https://github.com/zdeniztas/KGE-Project-Health-Facilities-Trentino
 
 ---
 
